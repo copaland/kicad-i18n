@@ -250,7 +250,7 @@ msgstr "OpenGL 로드: 구멍과 비아"
 
 #: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:528
 msgid "Load OpenGL: layers"
-msgstr "OpenGL 로 : 레이어"
+msgstr "OpenGL 로드 : 레이어"
 
 #: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:628
 #, fuzzy
@@ -295,7 +295,7 @@ msgstr "렌더링 : 사후 처리 쉐이더"
 #: pagelayout_editor/menubar.cpp:211 pcbnew/menubar_footprint_editor.cpp:490
 #: pcbnew/menubar_pcb_editor.cpp:130 pcbnew/tool_footprint_viewer.cpp:209
 msgid "&File"
-msgstr "파일 (&File)"
+msgstr "파일 (&F)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:53
 msgid "Export Current View as PNG..."
@@ -309,14 +309,14 @@ msgstr "현재보기를 JPEG로 내보내기 ..."
 #: kicad/menubar.cpp:289 pcbnew/menubar_footprint_editor.cpp:135
 #: pcbnew/menubar_pcb_editor.cpp:934
 msgid "&Exit"
-msgstr "끝내기 (&Exit)"
+msgstr "끝내기 (&E)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:65
 #: eeschema/libedit/menubar_libedit.cpp:393 eeschema/menubar.cpp:115
 #: pagelayout_editor/menubar.cpp:212 pcbnew/menubar_footprint_editor.cpp:491
 #: pcbnew/menubar_pcb_editor.cpp:131
 msgid "&Edit"
-msgstr "편집 (&Edit)"
+msgstr "편집 (&E)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:68
 #, fuzzy
@@ -330,7 +330,7 @@ msgstr "3D 이미지 복사"
 #: pcbnew/menubar_pcb_editor.cpp:132 pcbnew/tool_footprint_viewer.cpp:211
 #, fuzzy
 msgid "&View"
-msgstr "보기 (&View)"
+msgstr "보기 (&V)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:74
 #: eeschema/libedit/menubar_libedit.cpp:191 eeschema/menubar.cpp:166
@@ -541,7 +541,7 @@ msgstr "반사"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:211
 msgid "Render materials with reflections properties on final render (slow)"
-msgstr ""
+msgstr "최종 렌더링시 반사 특성을 가진 재료 렌더링 (느림)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:215
 #, fuzzy
@@ -571,17 +571,17 @@ msgstr "색상 선택"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:237
 #, fuzzy
 msgid "Background Color"
-msgstr "배경색:"
+msgstr "배경색"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:240
 #, fuzzy
 msgid "Background Top Color..."
-msgstr "배경 상단 색상:"
+msgstr "배경 상단 색상..."
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:243
 #, fuzzy
 msgid "Background Bottom Color..."
-msgstr "배경 하단 색상:"
+msgstr "배경 하단 색상..."
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:246
 #, fuzzy
@@ -639,7 +639,7 @@ msgstr "3D 그리드 2.5 mm"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:274
 #, fuzzy
 msgid "3D Grid 1 mm"
-msgstr "3D 그리 1 mm"
+msgstr "3D 그리드 1 mm"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:292
 msgid "Reset to Default Settings"
@@ -658,7 +658,7 @@ msgstr "도움말 (&H)"
 #: pcbnew/tool_footprint_viewer.cpp:192
 #, fuzzy
 msgid "Pcbnew &Manual"
-msgstr "PCBNEW 매뉴얼 (&M)"
+msgstr "Pcbnew 매뉴얼 (&M)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:301 pcbnew/menubar_pcb_editor.cpp:421
 msgid "Open Pcbnew Manual"
@@ -670,13 +670,13 @@ msgstr "Pcbnew 매뉴얼 열기"
 #: pagelayout_editor/menubar.cpp:190 pcbnew/menubar_footprint_editor.cpp:468
 #: pcbnew/menubar_pcb_editor.cpp:425 pcbnew/tool_footprint_viewer.cpp:197
 msgid "&Getting Started in KiCad"
-msgstr "KiCad 시작하기"
+msgstr "KiCad 시작하기 (&G)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:306 cvpcb/menubar.cpp:98
 #: eeschema/menubar.cpp:600 kicad/menubar.cpp:413
 #: pagelayout_editor/menubar.cpp:191 pcbnew/menubar_pcb_editor.cpp:426
 msgid "Open \"Getting Started in KiCad\" guide for beginners"
-msgstr "초보자용 안내서 열기 \"Getting Started in KiCad\" "
+msgstr "초보자용 안내서 열기 \"KiCad 시작하기\" "
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:309
 #: eeschema/libedit/menubar_libedit.cpp:373 eeschema/menubar.cpp:603
@@ -956,7 +956,7 @@ msgstr "앞면 보기"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:44
 msgid "View Back"
-msgstr "후면 보기"
+msgstr "뒷면 보기"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:45
 #, fuzzy
@@ -1206,7 +1206,7 @@ msgstr "Postscript (.ps file)"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:129
 msgid "Logo for title block (.kicad_wks file)"
-msgstr "Logo for title block (.kicad_wks file)"
+msgstr "제목 블록 로고 (.kicad_wks file)"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:131
 #, fuzzy
@@ -1267,7 +1267,7 @@ msgid ""
 "The 2 invisible fields reference and value are always placed on the silk "
 "screen layer."
 msgstr "외곽선을 배치할 보드 레이어를 선택하십시오.\n"
-"보이지 않는 두 개의 필드(레퍼런스와 값)는 항상 실크스크린 층에 놓여져 있다."
+"보이지 않는 두 개의 필드(레퍼런스와 값)는 항상 실크스크린 층 위에 놓여 있다."
 
 #: bitmap2component/bitmap2cmp_gui_base.h:92
 #, fuzzy
@@ -1603,7 +1603,7 @@ msgstr "전체 KiCad EDA Suite는"
 
 #: common/dialog_about/AboutDialog_main.cpp:187
 msgid "GNU Affero General Public License (AGPL) version 3 or any later version"
-msgstr ""
+msgstr "GNU Affero 일반 공중 사용권(AGPL) 버전 3 이상 버전"
 
 #: common/dialog_about/AboutDialog_main.cpp:379
 msgid "Others"
@@ -1686,17 +1686,17 @@ msgstr "앱 제목:"
 
 #: common/dialog_about/dialog_about_base.cpp:37
 msgid "Copyright Info"
-msgstr ""
+msgstr "저작권 정보"
 
 #: common/dialog_about/dialog_about_base.cpp:41
 #, fuzzy
 msgid "Build Version Info"
-msgstr "빌드 버전:"
+msgstr "빌드 버전 정보"
 
 #: common/dialog_about/dialog_about_base.cpp:45
 #, fuzzy
 msgid "Lib Version Info"
-msgstr "Lib 빌드 버전:"
+msgstr "Lib 버전 정보"
 
 #: common/dialog_about/dialog_about_base.cpp:67
 msgid "Show Version Info"
@@ -1774,13 +1774,13 @@ msgstr "미리보기 (old / new):"
 #: common/dialogs/dialog_configure_paths.cpp:236
 #: common/dialogs/dialog_configure_paths.cpp:306
 msgid "Environment variable name cannot be empty."
-msgstr "환경변수명은 비워 둘 수 없다."
+msgstr "환경변수 이름은 비워 둘 수 없다."
 
 #: common/dialogs/dialog_configure_paths.cpp:244
 #: common/dialogs/dialog_configure_paths.cpp:308
 #, fuzzy
 msgid "Environment variable path cannot be empty."
-msgstr "환경변수경로는 비워 둘 수 없다."
+msgstr "환경변수 경로는 비워 둘 수 없다."
 
 #: common/dialogs/dialog_configure_paths.cpp:271
 #: common/dialogs/dialog_configure_paths.cpp:313
@@ -1808,14 +1808,14 @@ msgid ""
 "this behavior, either rename any conflicting entries or remove\n"
 "the external environment variable(s) from your system."
 msgstr ""
-"다음에 KiCad가 실행될 때 이미 정의된 경로가 존중되고 경로 구성 대화상자에서 정의된\n"
+"다음에 KiCad가 실행될 때 이미 정의된 경로가 준수되고 경로 구성 대화상자에서 정의된\n"
 "설정이 무시된다. 이 동작을 의도하지 않은 경우 충돌하는 항목의 이름을 바꾸거나 시스템\n"
-"에서 외부 환경 변수를 제거하십시오."
+"에서 외부 환경 변수를 제거하시오."
 
 #: common/dialogs/dialog_configure_paths.cpp:470
 #, fuzzy
 msgid "File Browser..."
-msgstr "파일 찾아보기..."
+msgstr "파일 탐색기..."
 
 #: common/dialogs/dialog_configure_paths.cpp:473
 #: common/widgets/grid_text_button_helpers.cpp:346
@@ -2015,12 +2015,12 @@ msgstr "이 눈금은 매우 큰 이미지 크기를 제공한다(%.1f mm or %.2
 #: common/dialogs/dialog_image_editor_base.cpp:33 eeschema/hotkeys.cpp:157
 #, fuzzy
 msgid "Mirror X"
-msgstr "미러 X"
+msgstr "X-미러"
 
 #: common/dialogs/dialog_image_editor_base.cpp:36 eeschema/hotkeys.cpp:155
 #, fuzzy
 msgid "Mirror Y"
-msgstr "미러 Y"
+msgstr "Y-미러"
 
 #: common/dialogs/dialog_image_editor_base.cpp:39 pcbnew/onrightclick.cpp:940
 #: pcbnew/tools/edit_tool.cpp:705
@@ -2152,9 +2152,9 @@ msgid ""
 "\"%s\"?"
 msgstr ""
 "페이지 레이아웃 설명 파일 이름이 변경됨.\n"
-"\"%s\"를\n"
-"\"%s\"대신\n"
-":상대 경로를 사용하시겠습니까?"
+"상대 경로 \"%s\"를\n"
+"(\"%s\") 대신\n"
+"사용하시겠습니까?"
 
 #: common/dialogs/dialog_page_settings_base.cpp:25
 msgid "Paper"
@@ -2611,17 +2611,17 @@ msgstr "확대축소할 때 커서를 화면의 중앙에 놓기."
 
 #: common/dialogs/panel_common_settings_base.cpp:179
 msgid "Use touchpad to pan"
-msgstr "터치패드 사용하기"
+msgstr "터치 패드를 사용하여 이동"
 
 #: common/dialogs/panel_common_settings_base.cpp:180
 msgid ""
 "Enable touchpad-friendly controls (pan with scroll action, zoom with Ctrl"
 "+scroll)."
-msgstr "터치패드 친화적인 컨트롤 사용(스크롤 동작이 있는 팬, Ctrl +scroll로 줌)"
+msgstr "터치패드 친화적인 컨트롤 사용(스크롤 동작으로 이동, Ctrl+scroll로 줌)"
 
 #: common/dialogs/panel_common_settings_base.cpp:184
 msgid "&Pan while moving object"
-msgstr "&Pan while moving object"
+msgstr "물체를 움직이면서 이동(&P)"
 
 #: common/dialogs/panel_common_settings_base.cpp:185
 msgid ""
@@ -2637,11 +2637,11 @@ msgstr "필터 텍스트 입력: "
 #: common/dialogs/panel_hotkeys_editor.cpp:106
 #, fuzzy
 msgid "Reset Hotkeys"
-msgstr "Reset Hotkeys"
+msgstr "핫키 재설정"
 
 #: common/dialogs/panel_hotkeys_editor.cpp:107
 msgid "Undo all changes made so far in this dialog"
-msgstr ""
+msgstr "이 대화 상자에서 지금까지 수행한 모든 변경 내용 실행 취소"
 
 #: common/dialogs/panel_hotkeys_editor.cpp:114
 #, fuzzy
@@ -2650,17 +2650,17 @@ msgstr "비아홀 크기 초기화"
 
 #: common/dialogs/panel_hotkeys_editor.cpp:115
 msgid "Set all hotkeys to the built-in KiCad defaults"
-msgstr ""
+msgstr "모든 단축키를 내장 KiCad 기본값으로 설정"
 
 #: common/dialogs/panel_hotkeys_editor.cpp:125
 #, fuzzy
 msgid "Import..."
-msgstr "가져오기"
+msgstr "가져오기..."
 
 #: common/dialogs/panel_hotkeys_editor.cpp:126
 msgid ""
 "Import hotkey definitions from an external file, replacing the current values"
-msgstr ""
+msgstr "외부 파일에서 핫키 정의 가져 오기, 현재 값 대체"
 
 #: common/dialogs/panel_hotkeys_editor.cpp:133
 #, fuzzy
@@ -2670,45 +2670,45 @@ msgstr "내보내기"
 #: common/dialogs/panel_hotkeys_editor.cpp:134
 #, fuzzy
 msgid "Export these hotkey definitions to an external file"
-msgstr "단축키 설정 파일:"
+msgstr "이 단축키 정의를 외부 파일로 내보내기"
 
 #: common/dialogs/wx_html_report_panel.cpp:244
 #: common/dialogs/wx_html_report_panel.cpp:271
 #, fuzzy
 msgid "Error: "
-msgstr "에러"
+msgstr "에러:"
 
 #: common/dialogs/wx_html_report_panel.cpp:248
 #: common/dialogs/wx_html_report_panel.cpp:273
 #, fuzzy
 msgid "Warning: "
-msgstr "경고"
+msgstr "경고:"
 
 #: common/dialogs/wx_html_report_panel.cpp:252
 #: common/dialogs/wx_html_report_panel.cpp:275
 #, fuzzy
 msgid "Info: "
-msgstr "정보"
+msgstr "정보:"
 
 #: common/dialogs/wx_html_report_panel.cpp:380
 #, fuzzy
 msgid "Save Report to File"
-msgstr "프로젝트 파일 저장 (&P)"
+msgstr "보고서를 파일로 저장 (&P)"
 
 #: common/dialogs/wx_html_report_panel.cpp:397
 #, c-format
 msgid "Cannot write report to file \"%s\"."
-msgstr ""
+msgstr "파일 \"%s\"에 보고서를 쓸 수 없음."
 
 #: common/dialogs/wx_html_report_panel.cpp:399
 #, fuzzy
 msgid "File save error"
-msgstr "만들기 에러 "
+msgstr "파일 저장 오류"
 
 #: common/dialogs/wx_html_report_panel_base.cpp:14
 #, fuzzy
 msgid "Output Messages"
-msgstr "출력 형식"
+msgstr "출력 메시지"
 
 #: common/dialogs/wx_html_report_panel_base.cpp:31
 #, fuzzy
@@ -2753,7 +2753,7 @@ msgstr "패드 필터"
 
 #: common/draw_panel_gal.cpp:228 common/draw_panel_gal.cpp:389
 msgid "Could not use OpenGL, falling back to software rendering"
-msgstr ""
+msgstr "OpenGL을 사용할 수 없어 소프트웨어 렌더링으로 되돌아가십시오."
 
 #: common/dsnlexer.cpp:39
 #, fuzzy
@@ -2763,30 +2763,30 @@ msgstr "클립보드로 플로트"
 #: common/dsnlexer.cpp:356 common/dsnlexer.cpp:364
 #, c-format
 msgid "Expecting \"%s\""
-msgstr ""
+msgstr "Expecting \"%s\""
 
 #: common/dsnlexer.cpp:372 common/dsnlexer.cpp:388
 #, c-format
 msgid "Unexpected \"%s\""
-msgstr ""
+msgstr "Unexpected \"%s\""
 
 #: common/dsnlexer.cpp:380
 #, fuzzy, c-format
 msgid "%s is a duplicate"
-msgstr "중복 핀 테스트"
+msgstr "%s 중복이다"
 
 #: common/dsnlexer.cpp:433
 #, c-format
 msgid "need a NUMBER for \"%s\""
-msgstr ""
+msgstr "\"%s\"의 번호가 필요하다."
 
 #: common/dsnlexer.cpp:705 common/dsnlexer.cpp:765
 msgid "Un-terminated delimited string"
-msgstr ""
+msgstr "종결되지 않은 구분 된 문자열"
 
 #: common/dsnlexer.cpp:727
 msgid "String delimiter must be a single character of ', \", or $"
-msgstr ""
+msgstr "문자열 구분 기호는 단일 문자여야 함(', \", or $)"
 
 #: common/eda_base_frame.cpp:421
 #, fuzzy, c-format
@@ -2813,10 +2813,12 @@ msgid ""
 "Could not launch the default browser.\n"
 "For information on how to help the KiCad project, visit %s"
 msgstr ""
+"기본 브라우저를 시작할 수 없음.\n"
+"KiCad 프로젝트를 지원하는 방법에 대한 자세한 내용은 %s를 참조하십시오."
 
 #: common/eda_base_frame.cpp:501
 msgid "Get involved with KiCad"
-msgstr ""
+msgstr "KiCad에 참여하기"
 
 #: common/eda_base_frame.cpp:516
 #, fuzzy
@@ -2829,17 +2831,17 @@ msgstr "설정 (&P)"
 #: pcbnew/hotkeys.cpp:531
 #, fuzzy
 msgid "Common"
-msgstr "Comments "
+msgstr "공통"
 
 #: common/eda_base_frame.cpp:521
 #, fuzzy
 msgid "Hotkeys"
-msgstr "현재 단축키 목록 보이기"
+msgstr "단축키"
 
 #: common/eda_base_frame.cpp:561
 #, c-format
 msgid "You do not have write permissions to folder \"%s\"."
-msgstr ""
+msgstr "\"%s\" 폴더에 대한 쓰기 권한이 없는 경우"
 
 #: common/eda_base_frame.cpp:566
 #, c-format
@@ -2868,7 +2870,7 @@ msgstr "%s 파일을 만들 수 없습니다."
 
 #: common/eda_base_frame.cpp:639
 msgid "The auto save file could not be renamed to the board file name."
-msgstr ""
+msgstr "자동 저장 파일의 이름을 보드 파일 이름으로 바꿀 수 없습니다."
 
 #: common/eda_doc.cpp:148
 msgid "Doc Files"
@@ -2887,12 +2889,12 @@ msgstr "알 수 없는 마임 타입의 문서 파일 [%s] (%s)"
 #: common/eda_size_ctrl.cpp:39
 #, fuzzy
 msgid " X:"
-msgstr " X"
+msgstr " X:"
 
 #: common/eda_size_ctrl.cpp:45
 #, fuzzy
 msgid " Y:"
-msgstr " Y"
+msgstr " Y:"
 
 #: common/eda_text.cpp:392 eeschema/dialogs/dialog_edit_label_base.cpp:87
 #: eeschema/libedit/libedit.cpp:825 eeschema/sch_text.cpp:599
@@ -2920,7 +2922,7 @@ msgstr "표준"
 #: pcbnew/text_mod_grid_table.cpp:90
 #, fuzzy
 msgid "Italic"
-msgstr "이탈리아어"
+msgstr "이탤릭체"
 
 #: common/eda_text.cpp:394
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:62
@@ -2931,41 +2933,46 @@ msgstr "이탈리아어"
 #: eeschema/fields_grid_table.cpp:140 eeschema/sch_text.cpp:599
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:92
 msgid "Bold"
-msgstr ""
+msgstr "볼드체"
 
 #: common/eda_text.cpp:395
 msgid "Bold+Italic"
-msgstr ""
+msgstr "Bold+Italic"
 
 #: common/env_vars.cpp:70
 msgid ""
 "The base path of locally installed system footprint libraries (.pretty "
 "folders)."
 msgstr ""
+"로컬로 설치된 시스템 풋 프린트 라이브러리의 기본 경로 (.pretty "
+"folders)."
 
 #: common/env_vars.cpp:73
 msgid "The base path of system footprint 3D shapes (.3Dshapes folders)."
-msgstr ""
+msgstr "시스템 풋 프린트 3D 형태의 기본 경로"
 
 #: common/env_vars.cpp:75
 msgid "The base path of the locally installed symbol libraries."
-msgstr ""
+msgstr "로컬로 설치된 심볼 라이브러리의 기본 경로"
 
 #: common/env_vars.cpp:77
 msgid ""
 "Used by KiCad to define the URL of the repository of the official KiCad "
 "footprint libraries."
 msgstr ""
+"KiCad에서 공식 KiCad 풋 프린트 라이브러리의 저장소 URL을 정의하는 데 "
+"사용됩니다."
 
 #: common/env_vars.cpp:80
 msgid "A directory containing project templates installed with KiCad."
-msgstr ""
+msgstr "KiCad와 함께 설치된 프로젝트 템플릿이 포함 된 디렉토리입니다."
 
 #: common/env_vars.cpp:82
 msgid ""
 "Optional. Can be defined if you want to create your own project templates "
 "folder."
 msgstr ""
+"선택 사항: 고유한 프로젝트 템플릿 폴더를 생성하려는 경우 정의할 수 있다."
 
 #: common/env_vars.cpp:85
 msgid ""
@@ -2978,7 +2985,7 @@ msgstr ""
 
 #: common/env_vars.cpp:93
 msgid "Deprecated version of KICAD_TEMPLATE_DIR."
-msgstr ""
+msgstr "사용되지 않는 버젼 KICAD_TEMPLATE_DIR."
 
 #: common/exceptions.cpp:29
 #, c-format
