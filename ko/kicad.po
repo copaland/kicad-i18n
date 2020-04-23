@@ -2990,7 +2990,7 @@ msgstr "사용되지 않는 버젼 KICAD_TEMPLATE_DIR."
 #: common/exceptions.cpp:29
 #, c-format
 msgid "from %s : %s() line:%d"
-msgstr ""
+msgstr "from %s : %s() line:%d"
 
 #: common/exceptions.cpp:30
 #, c-format
@@ -3012,14 +3012,21 @@ msgid ""
 "Full error text:\n"
 "%s"
 msgstr ""
+"KiCad가 실행중인 파일보다 최신 버전으로 작성된 파일을 열 수 없습니다.\n"
+"이를 열려면 KiCad를 최신 버전으로 업그레이드 해야합니다.\n"
+"\n"
+"KiCad 버전이 필요한 최신 날짜 : %s\n"
+"\n"
+"전체 오류 텍스트:\n"
+"%s"
 
 #: common/filename_resolver.cpp:470
 msgid "The given path does not exist"
-msgstr ""
+msgstr "지정된 경로가 존재하지 않음"
 
 #: common/filename_resolver.cpp:473
 msgid "3D model search path"
-msgstr ""
+msgstr "3D 모델 검색 경로"
 
 #: common/filename_resolver.cpp:499
 #, fuzzy
@@ -3028,30 +3035,30 @@ msgstr "별명"
 
 #: common/filename_resolver.cpp:502
 msgid "This path: "
-msgstr ""
+msgstr "이 경로"
 
 #: common/filename_resolver.cpp:505
 msgid "Existing path: "
-msgstr ""
+msgstr "기존 경로"
 
 #: common/filename_resolver.cpp:507
 msgid "Bad alias (duplicate name)"
-msgstr ""
+msgstr "잘못된 별칭(중복 이름)"
 
 #: common/filename_resolver.cpp:629
 #, fuzzy
 msgid "3D configuration directory is unknown"
-msgstr "현재 디렉토리에 설정 저장"
+msgstr "3D 설정 디렉토리를 알 수 없음"
 
 #: common/filename_resolver.cpp:632 common/filename_resolver.cpp:657
 #: common/filename_resolver.cpp:682
 msgid "Write 3D search path list"
-msgstr ""
+msgstr "3D 검색 경로 목록 작성"
 
 #: common/filename_resolver.cpp:654
 #, fuzzy
 msgid "Could not open configuration file"
-msgstr "단축키 설정 파일:"
+msgstr "설정 파일을 열 수 없음:"
 
 #: common/filename_resolver.cpp:681
 #, fuzzy
@@ -3061,11 +3068,11 @@ msgstr "단축키 설정 파일:"
 #: common/footprint_info.cpp:91 cvpcb/cvpcb_mainframe.cpp:775
 #, fuzzy
 msgid "Load Error"
-msgstr "에러"
+msgstr "로드 에러"
 
 #: common/footprint_info.cpp:93
 msgid "Errors were encountered loading footprints:"
-msgstr ""
+msgstr "풋프린트를 로드하는 동안 오류가 발생함"
 
 #: common/fp_lib_table.cpp:198
 #, c-format
@@ -3073,11 +3080,13 @@ msgid ""
 "Duplicate library nickname \"%s\" found in footprint library table file line "
 "%d"
 msgstr ""
+"중복 라이브러리 닉네임 \"%s\" 풋프린트 라이브러리 테이블 파일 라인에 있음 "
+"%d"
 
 #: common/fp_lib_table.cpp:289
 #, c-format
 msgid "fp-lib-table files contain no library with nickname \"%s\""
-msgstr ""
+msgstr "fp-lib-table 파일에 별명이 있는 라이브러리가 없음 \"%s\""
 
 #: common/fp_lib_table.cpp:475
 #: eeschema/dialogs/dialog_global_sym_lib_table_config.cpp:110
@@ -3085,12 +3094,12 @@ msgstr ""
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:110
 #, c-format
 msgid "Cannot create global library table path \"%s\"."
-msgstr ""
+msgstr "글로벌 라이브러리 테이블 경로를 생성할 수 없음 \"%s\"."
 
 #: common/gestfich.cpp:233
 #, fuzzy, c-format
 msgid "Command \"%s\" could not found"
-msgstr "[%s] 컴포넌트를 찾을 수 없습니다."
+msgstr "\"%s\" 명령을 찾을 수 없음"
 
 #: common/gestfich.cpp:377
 #, c-format
@@ -3098,67 +3107,70 @@ msgid ""
 "Problem while running the PDF viewer\n"
 "Command is \"%s\""
 msgstr ""
+"PDF 뷰어를 실행하는 동안 문제 발생\n"
+"명령어는 \"%s\""
 
 #: common/gestfich.cpp:384
 #, fuzzy, c-format
 msgid "Unable to find a PDF viewer for \"%s\""
-msgstr "데이터 파일을 찾을 수 없습니다."
+msgstr "\"%s\"에 대한 PDF 뷰어를 찾을 수 없음"
 
 #: common/grid_tricks.cpp:228
 msgid "Cut\tCTRL+X"
-msgstr ""
+msgstr "자르기\tCTRL+X"
 
 #: common/grid_tricks.cpp:228
 #, fuzzy
 msgid "Clear selected cells placing original contents on clipboard"
-msgstr "선택된 항목 잘라내기"
+msgstr "클립보드에 선택된 셀 지우기"
 
 #: common/grid_tricks.cpp:229
 msgid "Copy\tCTRL+C"
-msgstr ""
+msgstr "복사\tCTRL+C"
 
 #: common/grid_tricks.cpp:229
 #, fuzzy
 msgid "Copy selected cells to clipboard"
-msgstr "클립보드로 3D 이미지 복사"
+msgstr "선택한 셀을 클립보드에 복사"
 
 #: common/grid_tricks.cpp:230
 msgid "Paste\tCTRL+V"
-msgstr ""
+msgstr "붙여넣기\tCTRL+V"
 
 #: common/grid_tricks.cpp:230
 msgid "Paste clipboard cells to matrix at current cell"
-msgstr ""
+msgstr "현재 셀의 매트릭스에 클립보드 셀 붙여넣기"
 
 #: common/grid_tricks.cpp:231
 msgid "Select All\tCTRL+A"
-msgstr ""
+msgstr "모두선택\tCTRL+A"
 
 #: common/grid_tricks.cpp:231
 #, fuzzy
 msgid "Select all cells"
-msgstr "항목 선택"
+msgstr "모든 셀 선택"
 
 #: common/hotkeys_basic.cpp:720
 #, fuzzy
 msgid "Read Hotkey Configuration File:"
-msgstr "단축키 설정 파일:"
+msgstr "단축키 설정 파일 읽기:"
 
 #: common/hotkeys_basic.cpp:752
 #, fuzzy
 msgid "Write Hotkey Configuration File:"
-msgstr "단축키 설정 파일:"
+msgstr "단축키 설정 파일 쓰기:"
 
 #: common/kiway.cpp:184
 #, fuzzy, c-format
 msgid "Failed to load kiface library \"%s\"."
-msgstr "라이브러리 파일이 아닙니다."
+msgstr "kiface 라이브러리 \"%s\"로드 실패"
 
 #: common/kiway.cpp:193
 #, c-format
 msgid ""
 "Could not read instance name and version symbol form kiface library \"%s\"."
 msgstr ""
+"kiface 라이브러리 \"%s\" 형식의 인스턴스 이름 및 버전 심볼을 읽을 수 없음"
 
 #: common/kiway.cpp:227
 #, c-format
@@ -3167,20 +3179,25 @@ msgid ""
 "\"%s\"\n"
 "could not be loaded\n"
 msgstr ""
+"치명적인 설치 버그 파일:\n"
+"\"%s\"\n"
+"로드 할 수 없음\n"
 
 #: common/kiway.cpp:231
 msgid "It is missing.\n"
-msgstr ""
+msgstr "사라짐"
 
 #: common/kiway.cpp:233
 msgid "Perhaps a shared library (.dll or .so) file is missing.\n"
-msgstr ""
+msgstr "공유 라이브러리(.dll 또는 .so) 파일이 없을 수 있음"
 
 #: common/kiway.cpp:235
 msgid ""
 "From command line: argv[0]:\n"
 "'"
 msgstr ""
+"명령 행: argv[0]:\n"
+"'"
 
 #: common/legacy_gal/block.cpp:71 common/legacy_wx/block.cpp:70
 msgid "Block Move"
@@ -3193,12 +3210,12 @@ msgstr "블록 드래그"
 #: common/legacy_gal/block.cpp:79 common/legacy_wx/block.cpp:78
 #, fuzzy
 msgid "Drag item"
-msgstr "비아 드래그"
+msgstr "항목 끌기"
 
 #: common/legacy_gal/block.cpp:83 common/legacy_wx/block.cpp:82
 #, fuzzy
 msgid "Block Duplicate"
-msgstr "블록 삭제"
+msgstr "블록 복제"
 
 #: common/legacy_gal/block.cpp:87 common/legacy_wx/block.cpp:86
 msgid "Block Delete"
@@ -3223,12 +3240,12 @@ msgstr "불록 붙여넣기"
 #: pcbnew/tool_pcb_editor.cpp:293
 #, fuzzy
 msgid "Zoom to selection"
-msgstr "글꼴 선택 (&F)"
+msgstr "선택 영역 확대 (&F)"
 
 #: common/legacy_gal/block.cpp:103 common/legacy_wx/block.cpp:102
 #, fuzzy
 msgid "Block Flip"
-msgstr "블록 복사"
+msgstr "블록 뒤집기"
 
 #: common/legacy_gal/eda_draw_frame.cpp:196
 #: common/legacy_gal/eda_draw_frame.cpp:630
@@ -3249,7 +3266,7 @@ msgstr "Inch"
 #: cvpcb/display_footprints_frame.cpp:231 pcbnew/tool_footprint_editor.cpp:214
 #: pcbnew/tool_pcb_editor.cpp:365
 msgid "Hide grid"
-msgstr ""
+msgstr "그리드 숨기기"
 
 #: common/legacy_gal/eda_draw_frame.cpp:440
 #: common/legacy_wx/eda_draw_frame.cpp:443
@@ -3291,7 +3308,7 @@ msgstr "가운데"
 #: pcbnew/hotkeys.cpp:233
 #, fuzzy
 msgid "Zoom In"
-msgstr "확대"
+msgstr "줌 확대"
 
 #: common/legacy_gal/eda_draw_frame.cpp:1577
 #: common/legacy_wx/eda_draw_frame.cpp:1890 common/tool/actions.cpp:20
@@ -3302,7 +3319,7 @@ msgstr "확대"
 #: pcbnew/hotkeys.cpp:240
 #, fuzzy
 msgid "Zoom Out"
-msgstr "확대"
+msgstr "줌 축소"
 
 #: common/legacy_gal/eda_draw_frame.cpp:1579
 #: common/legacy_wx/eda_draw_frame.cpp:1892 pagelayout_editor/menubar.cpp:146
@@ -3314,7 +3331,7 @@ msgstr "새로 고침"
 #: common/legacy_wx/eda_draw_frame.cpp:1894 pagelayout_editor/menubar.cpp:128
 #, fuzzy
 msgid "Zoom to Fit"
-msgstr "확대"
+msgstr "맞춤 확대"
 
 #: common/legacy_gal/eda_draw_frame.cpp:1587
 #: common/legacy_wx/eda_draw_frame.cpp:1900 common/tool/zoom_menu.cpp:39
@@ -3354,7 +3371,7 @@ msgstr ""
 
 #: common/lib_id.cpp:301
 msgid "Illegal character found in revision"
-msgstr ""
+msgstr "논리 라이브러리 이름에 잘못된 문자가 있음"
 
 #: common/lib_tree_model.cpp:137 eeschema/lib_draw_item.cpp:69
 #: eeschema/libedit/libedit.cpp:820 eeschema/onrightclick.cpp:507
@@ -3384,12 +3401,12 @@ msgstr "유닛"
 #: common/lib_tree_model_adapter.cpp:199
 #, fuzzy
 msgid "Item"
-msgstr "Nb 항목"
+msgstr "항목"
 
 #: common/marker_base.cpp:231
 #, fuzzy
 msgid "Marker Info"
-msgstr "마커를 찾았습니다."
+msgstr "마커 정보"
 
 #: common/page_layout/page_layout_reader.cpp:847
 #, fuzzy, c-format
@@ -3409,7 +3426,7 @@ msgstr "프랑스어"
 
 #: common/pgm_base.cpp:128
 msgid "Finnish"
-msgstr ""
+msgstr "핀란드어"
 
 #: common/pgm_base.cpp:129
 msgid "Spanish"
@@ -3426,11 +3443,11 @@ msgstr "이탈리아어"
 #: common/pgm_base.cpp:132
 #, fuzzy
 msgid "German"
-msgstr "써멀"
+msgstr "독일어"
 
 #: common/pgm_base.cpp:133
 msgid "Greek"
-msgstr ""
+msgstr "그리스어"
 
 #: common/pgm_base.cpp:134
 msgid "Slovenian"
@@ -3439,7 +3456,7 @@ msgstr "슬로바니아어"
 #: common/pgm_base.cpp:135
 #, fuzzy
 msgid "Slovak"
-msgstr "슬로바니아어"
+msgstr "슬로바키아어"
 
 #: common/pgm_base.cpp:136
 msgid "Hungarian"
@@ -3451,7 +3468,7 @@ msgstr "폴란드어"
 
 #: common/pgm_base.cpp:138
 msgid "Czech"
-msgstr ""
+msgstr "체코어"
 
 #: common/pgm_base.cpp:139
 msgid "Russian"
@@ -3459,48 +3476,48 @@ msgstr "러시아어"
 
 #: common/pgm_base.cpp:140
 msgid "Korean"
-msgstr ""
+msgstr "한국어"
 
 #: common/pgm_base.cpp:142
 msgid "Chinese simplified"
-msgstr ""
+msgstr "중국어 간체"
 
 #: common/pgm_base.cpp:144
 msgid "Chinese traditional"
-msgstr ""
+msgstr "중국어 번체"
 
 #: common/pgm_base.cpp:145
 msgid "Catalan"
-msgstr ""
+msgstr "카탈루냐어"
 
 #: common/pgm_base.cpp:146
 msgid "Dutch"
-msgstr "독일어"
+msgstr "네덜란드어"
 
 #: common/pgm_base.cpp:147
 msgid "Japanese"
-msgstr ""
+msgstr "일본어"
 
 #: common/pgm_base.cpp:148
 #, fuzzy
 msgid "Bulgarian"
-msgstr "헝가리어"
+msgstr "불가리아어"
 
 #: common/pgm_base.cpp:149
 msgid "Lithuanian"
-msgstr ""
+msgstr "리투아니아어"
 
 #: common/pgm_base.cpp:221
 msgid "No default editor found, you must choose it"
-msgstr "기본 에디터를 찾을 수 없습니다. 최소한 한 가지를 선택해야 합니다."
+msgstr "기본 편집기가 없으므로 선택해야 함"
 
 #: common/pgm_base.cpp:241
 msgid "Executable file (*.exe)|*.exe"
-msgstr ""
+msgstr "실행 파일 (*.exe)|*.exe"
 
 #: common/pgm_base.cpp:243
 msgid "Executable file (*)|*"
-msgstr ""
+msgstr "실행 파일 (*)|*"
 
 #: common/pgm_base.cpp:253
 #, fuzzy
@@ -3510,21 +3527,21 @@ msgstr "사용자 지정 에디터:"
 #: common/pgm_base.cpp:274
 #, fuzzy, c-format
 msgid "%s is already running. Continue?"
-msgstr "Cvpcb가 이미 실행 중입니다. 그래도 계속 하시겠습니까?"
+msgstr "%s가 이미 실행 중입니다. 그래도 계속 하시겠습니까?"
 
 #: common/pgm_base.cpp:833
 #, fuzzy
 msgid "Set Language"
-msgstr "언어"
+msgstr "언어 설정"
 
 #: common/pgm_base.cpp:834
 msgid "Select application language (only for testing)"
-msgstr ""
+msgstr "응용 프로그램 언어 선택(테스트 전용)"
 
 #: common/project.cpp:258
 #, fuzzy, c-format
 msgid "Unable to find \"%s\" template config file."
-msgstr "데이터 파일을 찾을 수 없습니다."
+msgstr "\"%s\" 템플릿 구성 파일을 찾을 수 없음."
 
 #: common/project.cpp:261
 msgid "Error copying project file template"
@@ -3533,11 +3550,11 @@ msgstr ""
 #: common/project.cpp:282
 #, c-format
 msgid "Cannot create prj file \"%s\" (Directory not writable)"
-msgstr ""
+msgstr "\"%s\" prj 파일을 만들 수 없음 (디렉토리를 쓸 수 없음)"
 
 #: common/project.cpp:430
 msgid "Error loading project footprint library table"
-msgstr ""
+msgstr "프로젝트 풋프린트 라이브러리 테이블을 로드하는 중 오류 발생"
 
 #: common/richio.cpp:167
 #, fuzzy, c-format
@@ -3546,15 +3563,15 @@ msgstr "<%s> 파일을 다시 열 수 없습니다."
 
 #: common/richio.cpp:201 common/richio.cpp:296
 msgid "Maximum line length exceeded"
-msgstr ""
+msgstr "최대 라인 길이가 초과됨"
 
 #: common/richio.cpp:263
 msgid "Line length exceeded"
-msgstr ""
+msgstr "라인 길이가 초과됨"
 
 #: common/richio.cpp:557
 msgid "OUTPUTSTREAM_OUTPUTFORMATTER write error"
-msgstr ""
+msgstr "OUTPUTSTREAM_OUTPUTFORMATTER 쓰기 오류"
 
 #: common/selcolor.cpp:86 eeschema/eeschema_config.cpp:211
 msgid "Colors"
@@ -3571,7 +3588,7 @@ msgstr "현재 툴 선택 해제"
 #: pcbnew/hotkeys.cpp:217 pcbnew/pcb_base_frame.cpp:1055
 #, fuzzy
 msgid "Zoom Auto"
-msgstr "확대"
+msgstr "자동 확대"
 
 #: common/tool/actions.cpp:40 eeschema/hotkeys.cpp:202
 #: eeschema/libedit/menubar_libedit.cpp:203 eeschema/menubar.cpp:179
@@ -3581,59 +3598,59 @@ msgstr "확대"
 #: pcbnew/menubar_pcb_editor.cpp:584
 #, fuzzy
 msgid "Zoom to Selection"
-msgstr "확대 선택"
+msgstr "선택 영역 확대"
 
 #: common/tool/common_tools.cpp:40
 msgid "Toggle Always Show Cursor"
-msgstr ""
+msgstr "항상 커서 표시 전환"
 
 #: common/tool/common_tools.cpp:41
 msgid "Toggle display of the cursor, even when not in an interactive tool"
-msgstr ""
+msgstr "대화식 도구가 아닌 경우에도 커서 표시 전환"
 
 #: common/tool/zoom_menu.cpp:49
 #, fuzzy, c-format
 msgid "Zoom: %.2f"
-msgstr "확대: "
+msgstr "확대: %.2f"
 
 #: common/view/view.cpp:567
 msgid "Mirroring for Y axis is not supported yet"
-msgstr ""
+msgstr "Y 축 미러링은 아직 지원되지 않음"
 
 #: common/widgets/footprint_preview_widget.cpp:96
 #, fuzzy
 msgid "Footprint not found"
-msgstr "풋프린트 회전"
+msgstr "풋프린트를 찾을 수 없음"
 
 #: common/widgets/footprint_select_widget.cpp:78 cvpcb/cvpcb_mainframe.cpp:711
 #: pcbnew/footprint_edit_frame.cpp:863 pcbnew/load_select_footprint.cpp:214
 #, fuzzy
 msgid "Loading Footprint Libraries"
-msgstr "풋프린트 미러"
+msgstr "풋프린트 라이브러리 로드 중"
 
 #: common/widgets/footprint_select_widget.cpp:230
 #, fuzzy
 msgid "No default footprint"
-msgstr "풋프린트 이동"
+msgstr "기본 풋프린트 없음"
 
 #: common/widgets/footprint_select_widget.cpp:235
 #: common/widgets/footprint_select_widget.cpp:236
 #, fuzzy
 msgid "Other..."
-msgstr "기타"
+msgstr "기타..."
 
 #: common/widgets/gal_options_panel.cpp:65
 msgid " (not supported in Legacy Toolset)"
-msgstr ""
+msgstr " (레거시 툴 세트에서는 지원되지 않음)"
 
 #: common/widgets/gal_options_panel.cpp:73
 #, fuzzy
 msgid "Grid Options"
-msgstr "GERBVIEW 설정"
+msgstr "그리드 옵션"
 
 #: common/widgets/gal_options_panel.cpp:76
 msgid "Dots"
-msgstr ""
+msgstr "도트"
 
 #: common/widgets/gal_options_panel.cpp:77
 msgid "Lines"
@@ -3642,88 +3659,88 @@ msgstr "행"
 #: common/widgets/gal_options_panel.cpp:78
 #, fuzzy
 msgid "Small crosses"
-msgstr "작은 마크"
+msgstr "작은 십자가"
 
 #: common/widgets/gal_options_panel.cpp:82
 #, fuzzy
 msgid "Grid Style"
-msgstr "그리드 크기:"
+msgstr "그리드 스타일"
 
 #: common/widgets/gal_options_panel.cpp:94
 #, fuzzy
 msgid "Grid thickness:"
-msgstr "그리드 (인치):"
+msgstr "그리드 두께(인치):"
 
 #: common/widgets/gal_options_panel.cpp:106
 #: common/widgets/gal_options_panel.cpp:123
 msgid "px"
-msgstr ""
+msgstr "px"
 
 #: common/widgets/gal_options_panel.cpp:111
 msgid "Min grid spacing:"
-msgstr ""
+msgstr "최소 그리드 간격:"
 
 #: common/widgets/gal_options_panel.cpp:151
 #, fuzzy
 msgid "Cursor Options"
-msgstr "호 설정"
+msgstr "커서 옵션"
 
 #: common/widgets/gal_options_panel.cpp:165
 #, fuzzy
 msgid "Small crosshair"
-msgstr "작은 마크"
+msgstr "작은 십자선"
 
 #: common/widgets/gal_options_panel.cpp:166
 msgid "Full window crosshair"
-msgstr ""
+msgstr "전체 창 십자선"
 
 #: common/widgets/gal_options_panel.cpp:171
 #, fuzzy
 msgid "Cursor shape:"
-msgstr "커서 모양 바꾸기"
+msgstr "커서 모양:"
 
 #: common/widgets/gal_options_panel.cpp:176
 msgid "Cursor shape for drawing, placement and movement tools"
-msgstr ""
+msgstr "도면, 배치 및 이동 도구에 대한 커서 모양"
 
 #: common/widgets/gal_options_panel.cpp:182
 msgid "Always show crosshairs"
-msgstr ""
+msgstr "항상 십자선 표시"
 
 #: common/widgets/gal_options_panel.cpp:187
 msgid "Always show crosshairs (not in Legacy)"
-msgstr ""
+msgstr "항상 십자선 표시 (레거시 아님)"
 
 #: common/widgets/grid_text_button_helpers.cpp:335
 #, fuzzy
 msgid "Select a File"
-msgstr "시트 파일"
+msgstr "파일 선택"
 
 #: common/widgets/mathplot.cpp:1792
 msgid "Center plot view to this position"
-msgstr ""
+msgstr "이 위치에 대한 중심 그림 보기"
 
 #: common/widgets/mathplot.cpp:1793 eeschema/hotkeys.cpp:87
 #: eeschema/sim/sim_plot_frame_base.cpp:85
 #, fuzzy
 msgid "Fit on Screen"
-msgstr "실크스크린에 패드 인쇄"
+msgstr "화면에 맞추기"
 
 #: common/widgets/mathplot.cpp:1793
 msgid "Set plot view to show all items"
-msgstr ""
+msgstr "모든 항목을 표시하도록 플롯보기 설정"
 
 #: common/widgets/mathplot.cpp:1794
 msgid "Zoom in plot view."
-msgstr ""
+msgstr "플롯 확대 보기"
 
 #: common/widgets/mathplot.cpp:1795
 msgid "Zoom out plot view."
-msgstr ""
+msgstr "플롯 축소 보기"
 
 #: common/widgets/net_selector.cpp:48
 msgid "<no net>"
-msgstr ""
+msgstr "<네트 없음>"
 
 #: common/widgets/net_selector.cpp:72
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:756
@@ -3744,21 +3761,21 @@ msgstr ""
 
 #: common/widgets/widget_hotkey_list.cpp:102
 msgid "Press a new hotkey, or press Esc to cancel..."
-msgstr ""
+msgstr "새 단축키를 누르거나 Esc를 눌러 취소..."
 
 #: common/widgets/widget_hotkey_list.cpp:109
 #, fuzzy
 msgid "Command:"
-msgstr "주석1:"
+msgstr "명령1:"
 
 #: common/widgets/widget_hotkey_list.cpp:117
 #, fuzzy
 msgid "Current key:"
-msgstr "현재 필드: "
+msgstr "현재 키: "
 
 #: common/widgets/widget_hotkey_list.cpp:211
 msgid "Set Hotkey"
-msgstr ""
+msgstr "단축키 설정"
 
 #: common/widgets/widget_hotkey_list.cpp:429
 #: eeschema/libedit/libedit_onrightclick.cpp:202
@@ -3773,28 +3790,28 @@ msgstr ""
 #: pcbnew/onrightclick.cpp:838 pcbnew/onrightclick.cpp:944
 #, fuzzy
 msgid "Edit..."
-msgstr "편집"
+msgstr "편집..."
 
 #: common/widgets/widget_hotkey_list.cpp:430
 #: eeschema/dialogs/dialog_edit_components_libid_base.cpp:64
 #, fuzzy
 msgid "Undo Changes"
-msgstr "변경 없음"
+msgstr "변경 취소"
 
 #: common/widgets/widget_hotkey_list.cpp:431
 #, fuzzy
 msgid "Restore Default"
-msgstr "기본값"
+msgstr "기본값 복원"
 
 #: common/widgets/widget_hotkey_list.cpp:435
 #, fuzzy
 msgid "Undo All Changes"
-msgstr "변경 없음"
+msgstr "모든 변경 취소"
 
 #: common/widgets/widget_hotkey_list.cpp:436
 #, fuzzy
 msgid "Restore All to Default"
-msgstr "비아홀 크기 초기화"
+msgstr "모두 기본값으로 복원"
 
 #: common/widgets/widget_hotkey_list.cpp:483
 #, c-format
@@ -3806,72 +3823,72 @@ msgstr ""
 #: common/widgets/widget_hotkey_list.cpp:488
 #, fuzzy
 msgid "Confirm change"
-msgstr "확인"
+msgstr "변경 확인"
 
 #: common/widgets/widget_hotkey_list.cpp:515
 #, fuzzy
 msgid "Command"
-msgstr "Comments "
+msgstr "Command"
 
 #: common/widgets/widget_hotkey_list.cpp:518
 #, fuzzy
 msgid "(double-click to edit)"
-msgstr "편집할 필드"
+msgstr "(편집하려면 두 번 클릭)"
 
 #: common/widgets/widget_hotkey_list.cpp:521
 msgid "Hotkey"
-msgstr ""
+msgstr "단축키"
 
 #: common/wildcards_and_files_ext.cpp:149
 #, fuzzy
 msgid "All files"
-msgstr "드릴 파일"
+msgstr "모든 파일"
 
 #: common/wildcards_and_files_ext.cpp:155
 #, fuzzy
 msgid "KiCad drawing symbol files"
-msgstr "필드 편집"
+msgstr "KiCad 그리기 심볼 파일"
 
 #: common/wildcards_and_files_ext.cpp:161
 #, fuzzy
 msgid "KiCad symbol library files"
-msgstr "문서 라이브러리 파일 만들기 실패"
+msgstr "KiCad 심볼 라이브러리 파일"
 
 #: common/wildcards_and_files_ext.cpp:167
 #, fuzzy
 msgid "KiCad project files"
-msgstr "프로젝트 파일 열기:"
+msgstr "KiCad 프로젝트 파일"
 
 #: common/wildcards_and_files_ext.cpp:173
 #, fuzzy
 msgid "KiCad schematic files"
-msgstr "회로도 파일:"
+msgstr "KiCad 회로도 파일"
 
 #: common/wildcards_and_files_ext.cpp:179
 #, fuzzy
 msgid "Eagle XML schematic files"
-msgstr "회로도 파일:"
+msgstr "Eagle XML 회로도 파일"
 
 #: common/wildcards_and_files_ext.cpp:185
 #, fuzzy
 msgid "Eagle XML files"
-msgstr "파일 추출: "
+msgstr "Eagle XML 파일"
 
 #: common/wildcards_and_files_ext.cpp:191
 #, fuzzy
 msgid "KiCad netlist files"
-msgstr "프로젝트 파일 열기:"
+msgstr "KiCad 넷리스트 파일"
 
 #: common/wildcards_and_files_ext.cpp:197 gerbview/files.cpp:57
 #, fuzzy
 msgid "Gerber files"
-msgstr "거버 파일:"
+msgstr "거버 파일"
 
 #: common/wildcards_and_files_ext.cpp:203
 #: common/wildcards_and_files_ext.cpp:221
 #, fuzzy
 msgid "KiCad printed circuit board files"
-msgstr "보드 인쇄"
+msgstr "KiCad 인쇄 회로 기판 파일"
 
 #: common/wildcards_and_files_ext.cpp:209
 msgid "Eagle ver. 6.x XML PCB files"
@@ -3884,17 +3901,17 @@ msgstr ""
 #: common/wildcards_and_files_ext.cpp:227
 #, fuzzy
 msgid "KiCad footprint files"
-msgstr "풋프린트 필터"
+msgstr "KiCad 풋프린트 파일"
 
 #: common/wildcards_and_files_ext.cpp:233
 #, fuzzy
 msgid "KiCad footprint library paths"
-msgstr "풋프린트 압축 만들기"
+msgstr "KiCad 풋프린트 라이브러리 경로"
 
 #: common/wildcards_and_files_ext.cpp:239
 #, fuzzy
 msgid "Legacy footprint library files"
-msgstr "풋프린트 압축 만들기"
+msgstr "레거시 풋프린트 라이브러리 파일"
 
 #: common/wildcards_and_files_ext.cpp:245
 msgid "Eagle ver. 6.x XML library files"
@@ -3903,17 +3920,17 @@ msgstr ""
 #: common/wildcards_and_files_ext.cpp:251
 #, fuzzy
 msgid "Geda PCB footprint library files"
-msgstr "하나의 라이브러리 파일에 풋프린트 압축 또는 추가"
+msgstr "Geda PCB 풋프린트 라이브러리 파일"
 
 #: common/wildcards_and_files_ext.cpp:257
 #, fuzzy
 msgid "Page layout design files"
-msgstr "현재 로드된 라이브러리를 디스크에 저장 (파일 업데이트)"
+msgstr "페이지 레이아웃 설계 파일"
 
 #: common/wildcards_and_files_ext.cpp:264
 #, fuzzy
 msgid "KiCad symbol footprint link files"
-msgstr "풋프린트 압축 만들기"
+msgstr "풋프린트 심볼 풋프린트 링크 파일"
 
 #: common/wildcards_and_files_ext.cpp:271 gerbview/files.cpp:71
 #, fuzzy
@@ -3923,126 +3940,126 @@ msgstr "드릴 파일"
 #: common/wildcards_and_files_ext.cpp:277
 #, fuzzy
 msgid "SVG files"
-msgstr "거버 파일:"
+msgstr "SVG 파일"
 
 #: common/wildcards_and_files_ext.cpp:283
 #, fuzzy
 msgid "HTML files"
-msgstr "Cmp 파일:"
+msgstr "HTML 파일"
 
 #: common/wildcards_and_files_ext.cpp:289
 #, fuzzy
 msgid "CSV Files"
-msgstr "ERC 파일:"
+msgstr "CSV 파일"
 
 #: common/wildcards_and_files_ext.cpp:295
 #, fuzzy
 msgid "Portable document format files"
-msgstr "%s 파일을 만들 수 없습니다."
+msgstr "휴대용 문서 형식 파일"
 
 #: common/wildcards_and_files_ext.cpp:301
 #, fuzzy
 msgid "PostScript files"
-msgstr "PS 플로트"
+msgstr "PostScript 파일"
 
 #: common/wildcards_and_files_ext.cpp:307
 #, fuzzy
 msgid "Report files"
-msgstr "Cmp 파일:"
+msgstr "보고서 파일"
 
 #: common/wildcards_and_files_ext.cpp:313
 #, fuzzy
 msgid "Footprint place files"
-msgstr "풋프린트 필터"
+msgstr "풋프린트 배치파일"
 
 #: common/wildcards_and_files_ext.cpp:319
 msgid "VRML and X3D files"
-msgstr ""
+msgstr "VRML & X3D 파일"
 
 #: common/wildcards_and_files_ext.cpp:325
 #, fuzzy
 msgid "IDFv3 footprint files"
-msgstr "풋프린트 필터"
+msgstr "IDFv3 풋프린트 파일"
 
 #: common/wildcards_and_files_ext.cpp:331
 #, fuzzy
 msgid "Text files"
-msgstr "파일 추출: "
+msgstr "Text 파일"
 
 #: common/wildcards_and_files_ext.cpp:337
 #, fuzzy
 msgid "Legacy footprint export files"
-msgstr "<%s> 파일로 모듈을 내보냈습니다."
+msgstr "<%s> 레거시 풋 프린트 내보내기 파일"
 
 #: common/wildcards_and_files_ext.cpp:343
 #, fuzzy
 msgid "Electronic rule check file"
-msgstr "회로도 ERC"
+msgstr "회로도 ERC 파일"
 
 #: common/wildcards_and_files_ext.cpp:349
 #, fuzzy
 msgid "Spice library file"
-msgstr "라이브러리 파일:"
+msgstr "SPICE 라이브러리 파일"
 
 #: common/wildcards_and_files_ext.cpp:355
 #, fuzzy
 msgid "SPICE netlist file"
-msgstr "네트리스트 파일:"
+msgstr "SPICE 네트리스트 파일"
 
 #: common/wildcards_and_files_ext.cpp:361
 #, fuzzy
 msgid "CadStar netlist file"
-msgstr "네트리스트 파일을 만들 수 없습니다."
+msgstr "CadStar 네트리스트 파일"
 
 #: common/wildcards_and_files_ext.cpp:367
 #, fuzzy
 msgid "Symbol footprint association files"
-msgstr "풋프린트 회전"
+msgstr "심볼 풋프린트 연결 파일"
 
 #: common/wildcards_and_files_ext.cpp:373
 #, fuzzy
 msgid "Zip file"
-msgstr "Cmp 파일:"
+msgstr "Zip 파일"
 
 #: common/wildcards_and_files_ext.cpp:379
 #, fuzzy
 msgid "GenCAD 1.4 board files"
-msgstr "보드 저장"
+msgstr "GenCAD 1.4 보드 파일"
 
 #: common/wildcards_and_files_ext.cpp:385
 #, fuzzy
 msgid "DXF Files"
-msgstr "문서 파일"
+msgstr "DXF 파일"
 
 #: common/wildcards_and_files_ext.cpp:391
 #, fuzzy
 msgid "Gerber job file"
-msgstr "거버 파일:"
+msgstr "거버 작업 파일"
 
 #: common/wildcards_and_files_ext.cpp:397
 #, fuzzy
 msgid "Specctra DSN file"
-msgstr "시트 파일"
+msgstr "Specctra DSN 파일"
 
 #: common/wildcards_and_files_ext.cpp:403
 #, fuzzy
 msgid "IPC-D-356 Test Files"
-msgstr "네트리스트 파일 열기 (&L)"
+msgstr "IPC-D-356 테스트 파일"
 
 #: common/wildcards_and_files_ext.cpp:409
 #, fuzzy
 msgid "Workbook file"
-msgstr "보드 파일:"
+msgstr "통합 문서 파일"
 
 #: common/wildcards_and_files_ext.cpp:415
 #, fuzzy
 msgid "PNG file"
-msgstr "거버 파일:"
+msgstr "PNG 파일"
 
 #: common/wildcards_and_files_ext.cpp:421
 #, fuzzy
 msgid "Jpeg file"
-msgstr "Cmp 파일:"
+msgstr "Jpeg 파일"
 
 #: cvpcb/auto_associate.cpp:107
 #, c-format
@@ -4073,7 +4090,7 @@ msgstr "컴포넌트 %s: 라이브러리에서 %s 풋프린트를 찾을 수 없
 #: cvpcb/auto_associate.cpp:300
 #, fuzzy
 msgid "CvPcb Warning"
-msgstr "ERC 경고"
+msgstr "CvPcb 경고"
 
 #: cvpcb/cfg.cpp:77
 #, c-format
