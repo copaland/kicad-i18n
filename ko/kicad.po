@@ -3919,7 +3919,7 @@ msgstr "레거시 풋프린트 라이브러리 파일"
 
 #: common/wildcards_and_files_ext.cpp:245
 msgid "Eagle ver. 6.x XML library files"
-msgstr ""
+msgstr "Eagle ver. 6.x XML 라이브러리 파일"
 
 #: common/wildcards_and_files_ext.cpp:251
 #, fuzzy
@@ -4082,7 +4082,7 @@ msgstr "등가 파일 로드 오류"
 #: cvpcb/auto_associate.cpp:187
 #, c-format
 msgid "%lu footprint/cmp equivalences found."
-msgstr ""
+msgstr "%lu footprint/cmp 등가물 발견"
 
 #: cvpcb/auto_associate.cpp:259
 #, fuzzy, c-format
@@ -4116,36 +4116,42 @@ msgid ""
 "See the \"Footprint Library Table\" section of the CvPcb documentation for "
 "more information."
 msgstr ""
+"풋프린트를 찾는 새로운 풋프린트 라이브러리 테이블 방법을 사용하여 CvPcb를 처음으로 "
+"실행했습니다.\n"
+"CvPcb가 기본 테이블을 복사했거나 홈 폴더에 빈 테이블을 만들었습니다.\n"
+"먼저 KiCad에 포함되지 않은 모든 풋 프린트 라이브러리를 포함하도록 라이브러리 "
+"테이블을 구성해야합니다.\n"
+"자세한 내용은 CvPcb 설명서의 (발자국 라이브러리 표) 섹션을 참조하십시오."
 
 #: cvpcb/cvpcb.cpp:174
 msgid "An error occurred attempting to load the global footprint library table"
-msgstr ""
+msgstr "글로벌 풋프린트 라이브러리 테이블을 로드하는 중 오류 발생"
 
 #: cvpcb/cvpcb_mainframe.cpp:111
 #, fuzzy
 msgid "Assign Footprints"
-msgstr "풋프린트"
+msgstr "풋프린트 할당"
 
 #: cvpcb/cvpcb_mainframe.cpp:154 pcbnew/dialogs/panel_fp_lib_table.cpp:815
 #, fuzzy
 msgid "Footprint Libraries"
-msgstr "풋프린트 레퍼런스"
+msgstr "풋프린트 라이브러리"
 
 #: cvpcb/cvpcb_mainframe.cpp:158
 #, fuzzy
 msgid "Symbol : Footprint Assignments"
-msgstr "풋프린트 회전"
+msgstr "기호 : 풋프린트 지정"
 
 #: cvpcb/cvpcb_mainframe.cpp:161
 #, fuzzy
 msgid "Filtered Footprints"
-msgstr "풋프린트"
+msgstr "필터링된 풋프린트"
 
 #: cvpcb/cvpcb_mainframe.cpp:193
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:105
 #, fuzzy
 msgid "Apply, Save Schematic && Continue"
-msgstr "회로도 저장 (&S)"
+msgstr "적용, 회로도 저장 및 계속"
 
 #: cvpcb/cvpcb_mainframe.cpp:263
 #, fuzzy
@@ -4153,26 +4159,26 @@ msgid ""
 "Symbol to Footprint links have been modified.\n"
 "Save before exit?"
 msgstr ""
-"네트리스트와 컴포넌트 리스트가 수정되었습니다. 끝내기 전에 저장하시겠습니까?"
+"기호와 풋프린트 연결이 수정되었습니다. 끝내기 전에 저장할까요?"
 
 #: cvpcb/cvpcb_mainframe.cpp:405
 msgid "Delete selections"
-msgstr "삭제 선택"
+msgstr "선택 항목 삭제"
 
 #: cvpcb/cvpcb_mainframe.cpp:459 cvpcb/cvpcb_mainframe.cpp:469
 #, fuzzy
 msgid "View Footprint"
-msgstr "풋프린트"
+msgstr "풋프린트 보기"
 
 #: cvpcb/cvpcb_mainframe.cpp:459
 #, fuzzy
 msgid "Show the assigned footprint in the footprint viewer"
-msgstr "텍스트 에디터로 열기 (&O)"
+msgstr "풋프린트 뷰어에 할당된 풋프린트 표시"
 
 #: cvpcb/cvpcb_mainframe.cpp:469
 #, fuzzy
 msgid "Show the current footprint in the footprint viewer"
-msgstr "텍스트 에디터로 열기 (&O)"
+msgstr "풋프린트 뷰어에 현재 풋프린트 표시"
 
 #: cvpcb/cvpcb_mainframe.cpp:639
 #, fuzzy
@@ -4181,7 +4187,7 @@ msgstr "키워드:"
 
 #: cvpcb/cvpcb_mainframe.cpp:652
 msgid "pin count"
-msgstr ""
+msgstr "핀 수"
 
 #: cvpcb/cvpcb_mainframe.cpp:662
 #, fuzzy
@@ -4190,16 +4196,16 @@ msgstr "라이브러리"
 
 #: cvpcb/cvpcb_mainframe.cpp:670
 msgid "search text"
-msgstr ""
+msgstr "문자 검색"
 
 #: cvpcb/cvpcb_mainframe.cpp:674
 msgid "No filtering"
-msgstr ""
+msgstr "필터링 없음"
 
 #: cvpcb/cvpcb_mainframe.cpp:676
 #, c-format
 msgid "Filtered by %s"
-msgstr ""
+msgstr "%s 로 필터링"
 
 #: cvpcb/cvpcb_mainframe.cpp:690
 #, c-format
@@ -4210,41 +4216,44 @@ msgstr ""
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
 msgstr ""
+"현재 풋 프린트 라이브러리 테이블에 나열된 PCB 풋 프린트 라이브러리가 없음."
 
 #: cvpcb/cvpcb_mainframe.cpp:707
 #, fuzzy
 msgid "Configuration Error"
-msgstr "설정"
+msgstr "설정 오류"
 
 #: cvpcb/cvpcb_mainframe.cpp:774
 #, fuzzy, c-format
 msgid ""
 "Error loading schematic.\n"
 "%s"
-msgstr "회로도 라이브러리 열기 시작"
+msgstr ""
+"회로도 로딩 중에 오류 발생\n"
+"%s"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:52
 #, fuzzy, c-format
 msgid "Project file: \"%s\""
-msgstr "<"
+msgstr "프로젝트 파일: %s"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:104
 msgid "No editor defined in KiCad. Please choose it."
-msgstr ""
+msgstr "KiCad에 편집기가 정의되어 있지 않다. 선택해주세요"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:249
 #, fuzzy
 msgid "Footprint Association File"
-msgstr "풋프린트 회전"
+msgstr "풋프린트 연결 파일"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:294
 #, c-format
 msgid "File \"%s\" already exists in list"
-msgstr ""
+msgstr "%s 파일이 이미 목록에 있음"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:20
 msgid "Symbol Footprint Association Files (.equ)"
-msgstr ""
+msgstr "심볼 풋프린트 연결 파일 (.equ)"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:36
 #: eeschema/dialogs/dialog_spice_model_base.cpp:610
@@ -4260,16 +4269,16 @@ msgstr "제거"
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:42
 #, fuzzy
 msgid "Move Up"
-msgstr "위쪽으로 이동 ^"
+msgstr "위로 이동"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:48
 #, fuzzy
 msgid "Edit File"
-msgstr "필드 편집"
+msgstr "파일 편집"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:63
 msgid "Available environment variables for relative paths:"
-msgstr ""
+msgstr "상대 경로에 사용 가능한 환경 변수 :"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:81
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:57
@@ -4297,36 +4306,36 @@ msgstr "절대값"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:99
 msgid "Relative"
-msgstr ""
+msgstr "상대값"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:101
 #, fuzzy
 msgid "Path Type:"
-msgstr "패드 형식"
+msgstr "경로 유형:"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:23
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.cpp:23
 #, fuzzy
 msgid "Drawing Options"
-msgstr "드로우 설정:"
+msgstr "도면 옵션:"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:25
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.cpp:25
 #, fuzzy
 msgid "Graphic items sketch mode"
-msgstr "트랙 스케치 모드 보이기"
+msgstr "그래픽 스케치 모드"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:28
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.cpp:28
 #, fuzzy
 msgid "Texts sketch mode"
-msgstr "트랙 스케치 모드 보이기"
+msgstr "텍스트 스케치 모드"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:31
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.cpp:31
 #, fuzzy
 msgid "Pad sketch mode"
-msgstr "패드 스케치 모드 보이기"
+msgstr "패드 스케치 모드"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:37
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.cpp:37
@@ -4338,27 +4347,27 @@ msgstr "패드 번호 보이기"
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.cpp:44
 #, fuzzy
 msgid "Auto-zoom"
-msgstr "자동 확대"
+msgstr "자동-확대"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:46
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.cpp:46
 #, fuzzy
 msgid "Zoom to fit when changing footprint"
-msgstr "풋프린트 이동"
+msgstr "풋프린트 변경시 화면에 맞춰 확대"
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:37
 msgid "Ref"
-msgstr "레퍼런스"
+msgstr "Ref"
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:38
 #, fuzzy
 msgid "Schematic assignment"
-msgstr "회로도 파일:"
+msgstr "회로도 할당"
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:41
 #, fuzzy
 msgid "Cmp file assignment"
-msgstr "Cmp 파일:"
+msgstr "Cmp 파일 할당"
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector_base.cpp:19
 msgid ""
@@ -4367,39 +4376,43 @@ msgid ""
 "\n"
 "Please choose the assignment."
 msgstr ""
+"회로도 네트리스트와 심볼 풋프린트 연결 파일 (.cmp)의  \ n "
+"풋프린트 할당이 충돌합니다.\n"
+"\n"
+"할당을 선택하십시오."
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector_base.h:53
 #, fuzzy
 msgid "Footprint Assignment Conflicts"
-msgstr "풋프린트 회전"
+msgstr "풋프린트 할당 충돌"
 
 #: cvpcb/display_footprints_frame.cpp:89
 #, fuzzy
 msgid "Footprint Viewer"
-msgstr "풋프린트 필터"
+msgstr "풋프린트 뷰어"
 
 #: cvpcb/display_footprints_frame.cpp:225 gerbview/toolbars_gerber.cpp:245
 msgid "Measure distance between two points"
-msgstr ""
+msgstr "두 지점 사이의 거리 측정"
 
 #: cvpcb/display_footprints_frame.cpp:235 pcbnew/pcb_base_frame.cpp:644
 #: pcbnew/tool_pcb_editor.cpp:368
 #, fuzzy
 msgid "Display polar coordinates"
-msgstr "좌표 보이기"
+msgstr "극좌표 표시"
 
 #: cvpcb/display_footprints_frame.cpp:239 eeschema/libedit/tool_lib.cpp:214
 #: gerbview/toolbars_gerber.cpp:261 pcbnew/tool_footprint_editor.cpp:222
 #: pcbnew/tool_pcb_editor.cpp:371
 msgid "Set units to inches"
-msgstr ""
+msgstr "단위를 Inch로 설정"
 
 #: cvpcb/display_footprints_frame.cpp:243 eeschema/libedit/tool_lib.cpp:219
 #: gerbview/toolbars_gerber.cpp:265 pcbnew/tool_footprint_editor.cpp:226
 #: pcbnew/tool_pcb_editor.cpp:374
 #, fuzzy
 msgid "Set units to millimeters"
-msgstr "mm"
+msgstr "단위를 mm로 설정"
 
 #: cvpcb/display_footprints_frame.cpp:248
 #: eeschema/libedit/menubar_libedit.cpp:238 eeschema/libedit/tool_lib.cpp:224
@@ -4415,29 +4428,29 @@ msgstr "커서 모양 바꾸기"
 #: gerbview/toolbars_gerber.cpp:274 pcbnew/menubar_footprint_editor.cpp:274
 #: pcbnew/menubar_pcb_editor.cpp:630 pcbnew/tool_pcb_editor.cpp:383
 msgid "Change cursor shape (not supported in Legacy Toolset)"
-msgstr ""
+msgstr "커서 모양 바꾸기(레거시 툴셋에서 지원되지 않음)"
 
 #: cvpcb/display_footprints_frame.cpp:259
 #: pcbnew/menubar_footprint_editor.cpp:284 pcbnew/menubar_pcb_editor.cpp:661
 #: pcbnew/pcb_base_frame.cpp:655 pcbnew/tool_pcb_editor.cpp:405
 #, fuzzy
 msgid "Show pads in outline mode"
-msgstr "패드 채움 모드 보이기"
+msgstr "윤곽선 모드로 패드 표시"
 
 #: cvpcb/display_footprints_frame.cpp:263
 #, fuzzy
 msgid "Show texts in line mode"
-msgstr "패드 채움 모드 보이기"
+msgstr "라인 모드로 텍스트 표시"
 
 #: cvpcb/display_footprints_frame.cpp:267
 #, fuzzy
 msgid "Show outlines in line mode"
-msgstr "플로트 모드 선 두께 설정"
+msgstr "라인 모드로 윤곽선 표시"
 
 #: cvpcb/display_footprints_frame.cpp:282 pcbnew/tool_footprint_viewer.cpp:66
 #, fuzzy
 msgid "Display options"
-msgstr "표시 설정"
+msgstr "표시 옵션"
 
 #: cvpcb/display_footprints_frame.cpp:287
 #, fuzzy
@@ -4456,85 +4469,87 @@ msgstr "새로 고침 (F3)"
 
 #: cvpcb/display_footprints_frame.cpp:296
 msgid "Zoom to fit footprint (Home)"
-msgstr ""
+msgstr "풋프린트에 맞게 확대 (Home)"
 
 #: cvpcb/display_footprints_frame.cpp:303
 #, fuzzy
 msgid "3D Display (Alt+3)"
-msgstr "3D 표시"
+msgstr "3D 디스플레이 (Alt+3)"
 
 #: cvpcb/display_footprints_frame.cpp:488
 #, fuzzy, c-format
 msgid "Footprint ID \"%s\" is not valid."
-msgstr "컴포넌트 %s: 라이브러리에서 %s 풋프린트를 찾을 수 없습니다."
+msgstr "풋프린트 ID %s 가 올바르지 않음."
 
 #: cvpcb/display_footprints_frame.cpp:515
 #, fuzzy, c-format
 msgid "Footprint \"%s\" not found"
-msgstr "%s 파일을 찾을 수 없습니다."
+msgstr "풋프린트 %s 파일을 찾을 수 없음"
 
 #: cvpcb/display_footprints_frame.cpp:542
 #, fuzzy, c-format
 msgid "Footprint: %s"
-msgstr "풋프린트: %d"
+msgstr "풋프린트: %s"
 
 #: cvpcb/display_footprints_frame.cpp:553
 #, fuzzy, c-format
 msgid "Lib: %s"
-msgstr "라이브러리:"
+msgstr "Lib: %s"
 
 #: cvpcb/menubar.cpp:57
 #, fuzzy
 msgid "&Save Schematic\tCtrl+S"
-msgstr "회로도 저장 (&S)"
+msgstr "회로도 저장 (&S)\tCtrl+S"
 
 #: cvpcb/menubar.cpp:67 eeschema/libedit/menubar_libedit.cpp:318
 #: kicad/menubar.cpp:337 pcbnew/menubar_footprint_editor.cpp:420
 #: pcbnew/menubar_pcb_editor.cpp:263
 #, fuzzy
 msgid "&Configure Paths..."
-msgstr "설정"
+msgstr "경로 설정...(&C)"
 
 #: cvpcb/menubar.cpp:68 eeschema/libedit/menubar_libedit.cpp:319
 #: eeschema/menubar.cpp:622 kicad/menubar.cpp:338
 #: pcbnew/menubar_footprint_editor.cpp:421 pcbnew/menubar_pcb_editor.cpp:264
 msgid "Edit path configuration environment variables"
-msgstr ""
+msgstr "경로 구성 환경 변수 편집"
 
 #: cvpcb/menubar.cpp:72 kicad/menubar.cpp:349
 #: pcbnew/menubar_footprint_editor.cpp:425 pcbnew/menubar_pcb_editor.cpp:268
 #, fuzzy
 msgid "Manage &Footprint Libraries..."
-msgstr "풋프린트 압축 만들기"
+msgstr "풋프린트 라이브러리 관리...(&F)"
 
 #: cvpcb/menubar.cpp:72
 #, fuzzy
 msgid "Manage footprint libraries"
-msgstr "풋프린트 압축 만들기"
+msgstr "풋프린트 라이브러리 관리"
 
 #: cvpcb/menubar.cpp:77
 #, fuzzy
 msgid "Footprint &Association Files..."
-msgstr "풋프린트 회전"
+msgstr "풋프린트 연결 파일...(&A)"
 
 #: cvpcb/menubar.cpp:78
 msgid ""
 "Configure footprint association file (.equ) list.These files are used to "
 "automatically assign the footprint name from the symbol value"
 msgstr ""
+"풋프린트 연결 파일 (.equ) 목록을 구성하십시오. "
+"이 파일은 심볼 값에서 풋프린트 이름을 자동으로 지정하는 데 사용됩니다."
 
 #: cvpcb/menubar.cpp:91
 msgid "CvPcb &Manual"
-msgstr ""
+msgstr "CvPcb 매뉴얼 (&M)"
 
 #: cvpcb/menubar.cpp:92
 msgid "Open CvPcb Manual"
-msgstr ""
+msgstr "CvPcb 매뉴얼 열기"
 
 #: cvpcb/readwrite_dlgs.cpp:103
 #, c-format
 msgid "\"%s\" is not a valid LIB_ID."
-msgstr ""
+msgstr "%s 는 올바른 LIB_ID가 아님."
 
 #: cvpcb/readwrite_dlgs.cpp:206
 msgid ""
@@ -4543,27 +4558,30 @@ msgid ""
 "required LIB_ID format? (If you answer no, then these assignments will be "
 "cleared out and you will have to re-assign these footprints yourself.)"
 msgstr ""
+"할당 된 풋프린트 중 일부는 레거시 항목입니다 (lib 닉네임이 없음) "
+"CvPcb가 새로운 필수 LIB_ID 형식으로 변환하려고 시도 하시겠습니까? "
+"(그렇지 않으면 이러한 연결은 지워지고 이 풋프린트를 직접 할당해야합니다.)"
 
 #: cvpcb/readwrite_dlgs.cpp:239
 #, fuzzy, c-format
 msgid ""
 "Component \"%s\" footprint \"%s\" was <b>not found</b> in any library.\n"
-msgstr "컴포넌트 %s: 라이브러리에서 %s 풋프린트를 찾을 수 없습니다."
+msgstr "컴포넌트 %s : 풋프린트 %s 를 라이브러리에서 찾을 수 없습니다."
 
 #: cvpcb/readwrite_dlgs.cpp:247
 #, fuzzy, c-format
 msgid ""
 "Component \"%s\" footprint \"%s\" was found in <b>multiple</b> libraries.\n"
-msgstr "컴포넌트 %s: 라이브러리에서 %s 풋프린트를 찾을 수 없습니다."
+msgstr "컴포넌트 %s : 풋프린트 %s 를 여러 라이브러리에서 찾았습니다."
 
 #: cvpcb/readwrite_dlgs.cpp:260
 #, fuzzy
 msgid "First check your footprint library table entries."
-msgstr "하나의 라이브러리 파일에 풋프린트 압축 또는 추가"
+msgstr "먼저 풋프린트 라이브러리 테이블 항목을 확인하십시오."
 
 #: cvpcb/readwrite_dlgs.cpp:262
 msgid "Problematic Footprint Library Tables"
-msgstr ""
+msgstr "문제가있는 풋프린트 라이브러리 테이블"
 
 #: cvpcb/readwrite_dlgs.cpp:270
 msgid ""
@@ -4571,6 +4589,8 @@ msgid ""
 "assignments:\n"
 "\n"
 msgstr ""
+"풋 프린트 할당을 변환하는 동안 다음 오류가 발생함:\n"
+"\n"
 
 #: cvpcb/readwrite_dlgs.cpp:273
 msgid ""
@@ -4578,62 +4598,65 @@ msgid ""
 "You will need to reassign them manually if you want them to be updated "
 "correctly the next time you import the netlist in Pcbnew."
 msgstr ""
+"\n"
+"다음에 Pcbnew에서 네트리스트를 가져올 때 올바르게 업데이트 되도록하려면 "
+"수동으로 다시 할당해야 합니다."
 
 #: cvpcb/toolbars_cvpcb.cpp:45
 #, fuzzy
 msgid "Edit footprint library table"
-msgstr "하나의 라이브러리 파일에 풋프린트 압축 또는 추가"
+msgstr "풋프린트 라이브러리 테이블 편집"
 
 #: cvpcb/toolbars_cvpcb.cpp:50
 #, fuzzy
 msgid "View selected footprint"
-msgstr "선택된 부품 보기"
+msgstr "선택된 풋프린트 보기"
 
 #: cvpcb/toolbars_cvpcb.cpp:55
 #, fuzzy
 msgid "Select previous unlinked symbol"
-msgstr "이전의 자유 컴포넌트를 선택"
+msgstr "연결되지 않은 이전 심볼 선택"
 
 #: cvpcb/toolbars_cvpcb.cpp:59
 #, fuzzy
 msgid "Select next unlinked symbol"
-msgstr "다음의 자유 컴포넌트를 선택"
+msgstr "연결되지 않은 다음 심볼 선택"
 
 #: cvpcb/toolbars_cvpcb.cpp:64
 #, fuzzy
 msgid "Perform automatic footprint association"
-msgstr "자동 패키지 연결"
+msgstr "풋프린트 자동 연결 수행"
 
 #: cvpcb/toolbars_cvpcb.cpp:68
 #, fuzzy
 msgid "Delete all footprint associations"
-msgstr "모든 연결 삭제"
+msgstr "모든 풋프린트 연결 삭제"
 
 #: cvpcb/toolbars_cvpcb.cpp:75
 msgid "Filter footprint list by schematic symbol keywords"
-msgstr ""
+msgstr "회로도 심볼 키워드로 풋프린트 목록 필터링"
 
 #: cvpcb/toolbars_cvpcb.cpp:82
 msgid "Filter footprint list by pin count"
-msgstr ""
+msgstr "핀 수로 풋프린트 목록 필터링"
 
 #: cvpcb/toolbars_cvpcb.cpp:88
 #, fuzzy
 msgid "Filter footprint list by library"
-msgstr "라이브러리 파일이 아닙니다."
+msgstr "라이브러리별 풋프린트 목록 필터링"
 
 #: cvpcb/toolbars_cvpcb.cpp:95
 msgid "Filter footprint list using a partial name or a pattern"
-msgstr ""
+msgstr "부분 이름 또는 패턴을 사용하여 풋프린트 목록 필터링"
 
 #: cvpcb/tools/cvpcb_selection_tool.cpp:46 gerbview/tools/selection_tool.cpp:74
 msgid "Measure Tool"
-msgstr ""
+msgstr "측정 도구"
 
 #: cvpcb/tools/cvpcb_selection_tool.cpp:46 gerbview/tools/selection_tool.cpp:74
 #: pcbnew/tools/edit_tool.cpp:155
 msgid "Interactively measure distance between points"
-msgstr ""
+msgstr "대화식으로 지점 간 거리 측정"
 
 #: cvpcb/tools/cvpcb_selection_tool.cpp:171
 #: gerbview/tools/selection_tool.cpp:807
@@ -4641,74 +4664,74 @@ msgstr ""
 #: pcbnew/tool_footprint_editor.cpp:197 pcbnew/tool_pcb_editor.cpp:522
 #: pcbnew/tools/edit_tool.cpp:1299
 msgid "Measure distance"
-msgstr ""
+msgstr "측정 거리"
 
 #: eeschema/annotate.cpp:114
 #, c-format
 msgid "%d duplicate time stamps were found and replaced."
-msgstr ""
+msgstr "%d 개의 중복된 시간 스탬프를 찾아 교체하였다."
 
 #: eeschema/annotate.cpp:204
 #, c-format
 msgid "Updated %s (unit %s) from %s to %s"
-msgstr ""
+msgstr "업데이트 %s (unit %s) from %s to %s"
 
 #: eeschema/annotate.cpp:210
 #, c-format
 msgid "Updated %s from %s to %s"
-msgstr ""
+msgstr "%s 를 %s 에서 %s 로 업데이트"
 
 #: eeschema/annotate.cpp:218
 #, c-format
 msgid "Annotated %s (unit %s) as %s"
-msgstr ""
+msgstr "설계참조넣음 %s (unit %s) as %s"
 
 #: eeschema/annotate.cpp:223
 #, fuzzy, c-format
 msgid "Annotated %s as %s"
-msgstr "애노테이션 되지 않은 항목: %s%s"
+msgstr "%s 를 %s 로 설계참조넣음"
 
 #: eeschema/annotate.cpp:233
 #, fuzzy
 msgid "Annotation complete."
-msgstr "치수 속성"
+msgstr "참조번호 넣기 완료"
 
 #: eeschema/backanno.cpp:225
 msgid "Load Symbol Footprint Link File"
-msgstr ""
+msgstr "심볼 풋프린트 링크 파일 로드"
 
 #: eeschema/backanno.cpp:236
 msgid "Keep existing footprint field visibility"
-msgstr ""
+msgstr "기존 풋프린트 필드 가시성 유지"
 
 #: eeschema/backanno.cpp:237
 #, fuzzy
 msgid "Show all footprint fields"
-msgstr "풋프린트 이동"
+msgstr "모든 풋프린트 필드 표시"
 
 #: eeschema/backanno.cpp:238
 #, fuzzy
 msgid "Hide all footprint fields"
-msgstr "풋프린트 압축 만들기"
+msgstr "모든 풋프린트 필드 숨기기"
 
 #: eeschema/backanno.cpp:240
 msgid "Select the footprint field visibility setting."
-msgstr ""
+msgstr "풋프린트 필드 가시성 설정을 선택하십시오."
 
 #: eeschema/backanno.cpp:241
 #, fuzzy
 msgid "Change Visibility"
-msgstr "두께 바꾸기"
+msgstr "가시성 바꾸기"
 
 #: eeschema/backanno.cpp:252
 #, fuzzy, c-format
 msgid "Failed to open component-footprint link file \"%s\""
-msgstr "<%s> 심볼 파일 열기 실패"
+msgstr "<%s> 컴포넌트-풋프린트 링크 파일 열기 실패"
 
 #: eeschema/block.cpp:454
 #, fuzzy
 msgid "No item to paste."
-msgstr "저장할 부품이 없습니다."
+msgstr "붙여넣을 항목이 없음."
 
 #: eeschema/block.cpp:489 eeschema/files-io.cpp:473 eeschema/sheet.cpp:276
 #, c-format
@@ -4717,6 +4740,8 @@ msgid ""
 "the sheet \"%s\" or one of it's subsheets as a parent somewhere in the "
 "schematic hierarchy."
 msgstr ""
+"대상 시트에 이미 시트 %s 또는 서브 시트 중 하나가 "
+"회로도 계층 구조의 상위에 있으므로 시트를 변경할 수 없습니다."
 
 #: eeschema/bom_plugins.cpp:34
 #, c-format
@@ -4725,12 +4750,16 @@ msgid ""
 "%s\n"
 "not found. Plugin not available."
 msgstr ""
+"플러그인 파일:\n"
+"%s\n"
+"찾지 못해 사용할 수 없음."
 
 #: eeschema/class_libentry.cpp:591
 #, c-format
 msgid ""
 "An attempt was made to remove the %s field from component %s in library %s."
 msgstr ""
+"%s 필드를 제거하려고 시도함. component %s library %s."
 
 #: eeschema/class_library.cpp:54
 #, c-format
@@ -4739,16 +4768,18 @@ msgid ""
 "This may cause some unexpected behavior when loading components into a "
 "schematic."
 msgstr ""
+"라이브러리 %s 에 중복된 항목 이름 %s \n"
+"컴포넌트를 회로도로 로드 할 때 예기치 않은 동작이 발생할 수 있습니다."
 
 #: eeschema/class_library.cpp:537
 #, fuzzy, c-format
 msgid "Unable to load project's \"%s\" file"
-msgstr "파일을 만들 수 없음"
+msgstr "프로젝트의 %s 파일을 로드할 수 없음"
 
 #: eeschema/class_library.cpp:577 eeschema/libedit/lib_edit_frame.cpp:1611
 #: eeschema/symbol_tree_model_adapter.cpp:61
 msgid "Loading Symbol Libraries"
-msgstr ""
+msgstr "심볼 라이브러리 로딩"
 
 #: eeschema/class_library.cpp:594
 msgid "Loading "
@@ -4760,40 +4791,42 @@ msgid ""
 "Symbol library \"%s\" failed to load. Error:\n"
 " %s"
 msgstr ""
+"%s 심볼 라이브러리 로드 실패. Error:\n"
+" %s"
 
 #: eeschema/class_library.cpp:661
 #, c-format
 msgid ""
-"Symbol library \"%s\" failed to load.\n"
+"%s 심볼 라이브러리 로드 실패.\n"
 "Error: %s"
 msgstr ""
 
 #: eeschema/component_references_lister.cpp:555
 #, fuzzy, c-format
 msgid "Item not annotated: %s%s (unit %d)\n"
-msgstr "애노테이션 되지 않은 항목: %s%s"
+msgstr "설계참조넣기 않된 항목: %s%s (unit %d)\n"
 
 #: eeschema/component_references_lister.cpp:562
 #, fuzzy, c-format
 msgid "Item not annotated: %s%s\n"
-msgstr "애노테이션 되지 않은 항목: %s%s"
+msgstr "설계참조넣기 않된 항목: %s%s\n"
 
 #: eeschema/component_references_lister.cpp:583
 #, c-format
 msgid "Error: symbol %s%s unit %d and symbol has only %d units defined\n"
-msgstr ""
+msgstr "오류: symbol %s%s unit %d and symbol has only %d units defined\n"
 
 #: eeschema/component_references_lister.cpp:621
 #: eeschema/component_references_lister.cpp:651
 #, fuzzy, c-format
 msgid "Multiple item %s%s (unit %d)\n"
-msgstr "복수 항목 %s%s"
+msgstr "여러 항목 %s%s (unit %d)\n"
 
 #: eeschema/component_references_lister.cpp:628
 #: eeschema/component_references_lister.cpp:658
 #, fuzzy, c-format
 msgid "Multiple item %s%s\n"
-msgstr "복수 항목 %s%s"
+msgstr "여러 항목 %s%s\n"
 
 #: eeschema/component_references_lister.cpp:672
 #, fuzzy, c-format
@@ -4803,14 +4836,14 @@ msgstr "상이한 값: %s%d%c (%s) 및 %s%d%c (%s)"
 #: eeschema/component_references_lister.cpp:703
 #, fuzzy, c-format
 msgid "Duplicate time stamp (%s) for %s%d and %s%d"
-msgstr "핀 중복  %4.4s (핀 %s 위치 %d, %d, 및 핀 %s 위치 %d, %d)"
+msgstr "중복 타임스탬프 (%s) : %s%d 와 %s%d 의"
 
 #: eeschema/controle.cpp:204 eeschema/libedit/lib_edit_frame.cpp:1363
 #: pcbnew/controle.cpp:229 pcbnew/footprint_editor_utils.cpp:135
 #: pcbnew/tools/selection_tool.cpp:578
 #, fuzzy
 msgid "Clarify Selection"
-msgstr "선택"
+msgstr "선택 명확화"
 
 #: eeschema/cross-probing.cpp:85
 #, fuzzy
@@ -4820,25 +4853,25 @@ msgstr "네트 선택"
 #: eeschema/cross-probing.cpp:314
 #, fuzzy
 msgid "Schematic saved"
-msgstr "회로도 파일:"
+msgstr "회로도 저장됨"
 
 #: eeschema/dialogs/dialog_annotate.cpp:111
 #, fuzzy
 msgid "Annotation Messages:"
-msgstr "애노테이션이 필요합니다!"
+msgstr "애노테이션 메시지:"
 
 #: eeschema/dialogs/dialog_annotate.cpp:115
 #, fuzzy
 msgid "Annotate"
-msgstr "애노테이트 (&A)"
+msgstr "설계참조넣기 (&A)"
 
 #: eeschema/dialogs/dialog_annotate.cpp:210
 msgid "Clear and annotate all of the symbols on the entire schematic?"
-msgstr ""
+msgstr "전체 회로도의 모든 심볼을 지우고 설계참조를 추가 하시겠습니까?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:212
 msgid "Clear and annotate all of the symbols on the current sheet?"
-msgstr ""
+msgstr "현재 시트의 모든 심볼을 지우고 설계참조를 추가 하시겠습니까?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:214
 msgid ""
@@ -4846,19 +4879,22 @@ msgid ""
 "\n"
 "This operation will change the current annotation and cannot be undone."
 msgstr ""
+"\n"
+"\n"
+"이 작업은 현재 설계참조를 변경하고 취소 할 수 없습니다."
 
 #: eeschema/dialogs/dialog_annotate.cpp:217
 #, fuzzy
 msgid "Clear and Annotate"
-msgstr "EESchema 애노테이션"
+msgstr "지우고 설계참조넣기"
 
 #: eeschema/dialogs/dialog_annotate.cpp:256
 msgid "Clear the existing annotation for the entire schematic?"
-msgstr ""
+msgstr "전체 회로도에 대한 기존 설계참조를 지우시겠습니까?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:258
 msgid "Clear the existing annotation for the current sheet?"
-msgstr ""
+msgstr "현재 시트의 기존 설계참조를 지우시겠습니까?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:260
 msgid ""
@@ -4866,22 +4902,25 @@ msgid ""
 "\n"
 "This operation will clear the existing annotation and cannot be undone."
 msgstr ""
+"\n"
+"\n"
+"이 작업은 기존 설계참조를 지우고 취소 할 수 없습니다."
 
 #: eeschema/dialogs/dialog_annotate.cpp:263
 #: eeschema/dialogs/dialog_annotate_base.cpp:126
 #, fuzzy
 msgid "Clear Annotation"
-msgstr "EESchema 애노테이션"
+msgstr "설계참조 지우기"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:38
 #, fuzzy
 msgid "Use the entire schematic"
-msgstr "회로도 인쇄"
+msgstr "전체 회로도 사용"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:38
 #, fuzzy
 msgid "Use the current page only"
-msgstr "현재 시트만 저장"
+msgstr "현재 페이지만 저장"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:40
 msgid "Scope:"
@@ -4893,25 +4932,25 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:50
 msgid "Sort components by &X position"
-msgstr ""
+msgstr "&X 위치별로 컴포넌트 정렬"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:65
 msgid "Sort components by &Y position"
-msgstr ""
+msgstr "&Y 위치별로 컴포넌트 정렬"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:80
 #, fuzzy
 msgid "Keep existing annotations"
-msgstr "기존 드로잉 가져오기"
+msgstr "기존 설계참조 유지"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:80
 #, fuzzy
 msgid "Reset existing annotations"
-msgstr "기존 드로잉 가져오기"
+msgstr "기존 설계참조 재설정"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:80
 msgid "Reset, but keep order of multi-unit parts"
-msgstr ""
+msgstr "재설정, 그러나 다중 장치 부품 순서 유지"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:82
 #: eeschema/dialogs/dialog_netlist.cpp:291
@@ -4919,34 +4958,34 @@ msgstr ""
 #: pcbnew/dialogs/dialog_block_options_base.cpp:20
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:26
 msgid "Options:"
-msgstr "설정"
+msgstr "옵션:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:87
 #, fuzzy
 msgid "Numbering:"
-msgstr "유닛 개수:"
+msgstr "번호 매기기:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:94
 msgid "Use first free number after:"
-msgstr ""
+msgstr "첫 번째 자유 번호 사용 후:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:100
 msgid "First free after sheet number X 100"
-msgstr ""
+msgstr "First free after sheet number X 100"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:103
 msgid "First free after sheet number X 1000"
-msgstr ""
+msgstr "First free after sheet number X 1000"
 
 #: eeschema/dialogs/dialog_annotate_base.h:80
 #, fuzzy
 msgid "Annotate Schematic"
-msgstr "새 회로도 (&S)"
+msgstr "회로도 설계참조 넣기"
 
 #: eeschema/dialogs/dialog_bom.cpp:239
 #, fuzzy
 msgid "Generate"
-msgstr "일반"
+msgstr "생성"
 
 #: eeschema/dialogs/dialog_bom.cpp:508 eeschema/dialogs/dialog_bom_base.cpp:43
 #, fuzzy
@@ -4960,7 +4999,7 @@ msgstr "플러그인 추가"
 #: eeschema/dialogs/dialog_bom.cpp:517
 #, fuzzy, c-format
 msgid "Nickname \"%s\" already in use."
-msgstr "라이브러리가 이미 사용 중입니다."
+msgstr "%s 라이브러리가 이미 사용 중입니다."
 
 #: eeschema/dialogs/dialog_bom.cpp:552 eeschema/dialogs/dialog_netlist.cpp:820
 msgid "Plugin files:"
@@ -4969,7 +5008,7 @@ msgstr "플러그인 파일:"
 #: eeschema/dialogs/dialog_bom.cpp:571
 #, fuzzy
 msgid "Plugin file name not found."
-msgstr "%s 파일을 찾을 수 없습니다."
+msgstr "플러그인 파일을 찾을 수 없습니다."
 
 #: eeschema/dialogs/dialog_bom.cpp:581
 msgid "No text editor selected in KiCad.  Please choose one."
@@ -8666,7 +8705,7 @@ msgstr "시트 설치"
 
 #: eeschema/help_common_strings.h:78
 msgid "Annotate schematic symbols"
-msgstr ""
+msgstr "회로도 심볼에 설계참조 넣기"
 
 #: eeschema/help_common_strings.h:79
 msgid "Create, delete, and edit symbols"
@@ -10659,7 +10698,7 @@ msgstr ""
 #: eeschema/menubar.cpp:562
 #, fuzzy
 msgid "&Annotate Schematic..."
-msgstr "새 회로도 (&S)"
+msgstr "설계참조 넣기...(&A)"
 
 #: eeschema/menubar.cpp:566
 #, fuzzy
@@ -14098,12 +14137,12 @@ msgstr "프로젝트 열기 (&O)"
 #: kicad/menubar.cpp:229
 #, fuzzy
 msgid "Open an existing project"
-msgstr "보드 열기"
+msgstr "기존 프로젝트 열기"
 
 #: kicad/menubar.cpp:239
 #, fuzzy
 msgid "Open a recent project"
-msgstr "회로도 열기"
+msgstr "최근 프로젝트 열기"
 
 #: kicad/menubar.cpp:248 kicad/menubar.cpp:489
 #, fuzzy
@@ -14121,7 +14160,7 @@ msgstr ""
 #: kicad/menubar.cpp:262
 #, fuzzy
 msgid "Import Project"
-msgstr "부품 가져오기"
+msgstr "프로젝트 가져오기"
 
 #: kicad/menubar.cpp:263
 msgid "Import project files from other software"
@@ -14130,22 +14169,22 @@ msgstr ""
 #: kicad/menubar.cpp:272
 #, fuzzy
 msgid "&Archive Project..."
-msgstr "프로젝트 파일 압축:"
+msgstr "프로젝트 파일 압축..."
 
 #: kicad/menubar.cpp:273
 #, fuzzy
 msgid "Archive all needed project files into zip archive"
-msgstr "모든 프로젝트 파일 압축"
+msgstr "모든 프로젝트 파일 ZIP으로 압축"
 
 #: kicad/menubar.cpp:279
 #, fuzzy
 msgid "&Unarchive Project..."
-msgstr "프로젝트 파일 압축:"
+msgstr "프로젝트 압축 풀기..."
 
 #: kicad/menubar.cpp:280 kicad/menubar.cpp:502
 #, fuzzy
 msgid "Unarchive project files from zip archive"
-msgstr "모든 프로젝트 파일 압축"
+msgstr "프로젝트 파일 압축 풀기"
 
 #: kicad/menubar.cpp:290
 #, fuzzy
@@ -14154,7 +14193,7 @@ msgstr "닫기"
 
 #: kicad/menubar.cpp:297
 msgid "&Refresh"
-msgstr ""
+msgstr "새로고침 &R"
 
 #: kicad/menubar.cpp:299 kicad/menubar.cpp:509
 msgid "Refresh project tree"
@@ -14163,25 +14202,25 @@ msgstr "프로젝트 목록 새로 고침"
 #: kicad/menubar.cpp:312
 #, fuzzy
 msgid "Open Text E&ditor"
-msgstr "텍스트 에디터"
+msgstr "문서 편집기 열기"
 
 #: kicad/menubar.cpp:313
 msgid "Launch preferred text editor"
-msgstr ""
+msgstr "기본 문서 편집기 시작"
 
 #: kicad/menubar.cpp:319
 msgid "&Open Local File..."
-msgstr ""
+msgstr "로컬 파일 열기...&O"
 
 #: kicad/menubar.cpp:320
 #, fuzzy
 msgid "Edit local file"
-msgstr "드릴 파일"
+msgstr "로컬 파일 편집"
 
 #: kicad/menubar.cpp:327
 #, fuzzy
 msgid "&Browse Project Files"
-msgstr "문서 파일 찾아보기"
+msgstr "프로젝트 파일 찾아보기"
 
 #: kicad/menubar.cpp:328 kicad/menubar.cpp:515
 msgid "Open project directory in file explorer"
@@ -14199,33 +14238,33 @@ msgstr "하나의 라이브러리 파일에 풋프린트 압축 또는 추가"
 
 #: kicad/menubar.cpp:367
 #, fuzzy
-msgid "Edit Schematic"
-msgstr "회로도 인쇄"
+msgid "Edit Schematic \tCtrl+E"
+msgstr "회로도 편집"
 
 #: kicad/menubar.cpp:370
 #, fuzzy
 msgid "Edit Schematic Symbols"
-msgstr "회로도 파일:"
+msgstr "회로도 심볼 편집 \tCtrl+L"
 
 #: kicad/menubar.cpp:374
 #, fuzzy
 msgid "Edit PCB"
-msgstr "패드 편집"
+msgstr "PCB 편집 \tCtrl+P"
 
 #: kicad/menubar.cpp:378
 #, fuzzy
 msgid "Edit PCB Footprints"
-msgstr "풋프린트"
+msgstr "PCB 풋프린트 편집 \tCtrl+F"
 
 #: kicad/menubar.cpp:382
 #, fuzzy
 msgid "View Gerber Files"
-msgstr "새 거버 파일 (&G)"
+msgstr "거버 파일 보기 \tCtrl+G"
 
 #: kicad/menubar.cpp:386
 #, fuzzy
 msgid "Convert Image"
-msgstr "변환"
+msgstr "이미지 변환 \tCtrl+B"
 
 #: kicad/menubar.cpp:389
 msgid "Convert bitmap images to schematic or PCB components."
@@ -14234,7 +14273,7 @@ msgstr ""
 #: kicad/menubar.cpp:392
 #, fuzzy
 msgid "Calculator Tools"
-msgstr "시뮬레이터 실행 (&R)"
+msgstr "PCB 계산기 \tCtrl+A"
 
 #: kicad/menubar.cpp:394
 msgid "Run component calculations, track width calculations, etc."
@@ -14243,7 +14282,7 @@ msgstr ""
 #: kicad/menubar.cpp:397
 #, fuzzy
 msgid "Edit Worksheet"
-msgstr "핀 시트 편집"
+msgstr "시트 편집 \tCtrl+Y"
 
 #: kicad/menubar.cpp:399
 msgid "Edit worksheet graphics and text"
@@ -14251,16 +14290,16 @@ msgstr ""
 
 #: kicad/menubar.cpp:407
 msgid "KiCad &Manual"
-msgstr ""
+msgstr "KiCad 매뉴얼 (&M)"
 
 #: kicad/menubar.cpp:408
 msgid "Open KiCad user manual"
-msgstr ""
+msgstr "KiCad 사용자 매뉴얼 열기"
 
 #: kicad/menubar.cpp:418 pagelayout_editor/menubar.cpp:194
 #, fuzzy
 msgid "&List Hotkeys"
-msgstr "D-Codes 목록 (&L)"
+msgstr "단축키 목록 (&L)"
 
 #: kicad/menubar.cpp:440
 msgid "&Browse"
@@ -14269,7 +14308,7 @@ msgstr "찾아보기 (&B)"
 #: kicad/menubar.cpp:481
 #, fuzzy
 msgid "Open existing project"
-msgstr "보드 열기"
+msgstr "기존 프로젝트 열기"
 
 #: kicad/menubar.cpp:497
 msgid "Archive all project files"
@@ -14278,7 +14317,7 @@ msgstr "모든 프로젝트 파일 압축"
 #: kicad/prjconfig.cpp:168
 #, fuzzy
 msgid "Open Existing Project"
-msgstr "보드 열기"
+msgstr "기존 프로젝트 열기"
 
 #: kicad/prjconfig.cpp:195
 #, fuzzy
@@ -14288,7 +14327,7 @@ msgstr "새 디렉토리 만들기"
 #: kicad/prjconfig.cpp:222
 #, fuzzy
 msgid "Create New Project"
-msgstr "새 디렉토리 만들기"
+msgstr "새 프로젝트 만들기"
 
 #: kicad/prjconfig.cpp:256 kicad/prjconfig.cpp:354
 #, c-format
@@ -14321,7 +14360,7 @@ msgstr ""
 #: kicad/prjconfig.cpp:319
 #, fuzzy
 msgid "New Project Folder"
-msgstr "새 프로젝트 (&N)"
+msgstr "새 프로젝트 폴더"
 
 #: kicad/prjconfig.cpp:366
 #, c-format
@@ -14340,7 +14379,7 @@ msgstr ""
 #: kicad/prjconfig.cpp:391
 #, fuzzy
 msgid "Overwriting files:"
-msgstr "거버 파일:"
+msgstr "파일 덮어쓰기:"
 
 #: kicad/prjconfig.cpp:396
 msgid "Similar files already exist in the destination folder."
@@ -14375,14 +14414,16 @@ msgstr "%s 파일을 만들 수 없습니다."
 #: kicad/project_template.cpp:227
 #, c-format
 msgid "Cannot copy file \"%s\"."
-msgstr ""
+msgstr "%s 파일을 복사할 수 없음."
 
 #: kicad/tree_project_frame.cpp:235
 #, fuzzy, c-format
 msgid ""
 "Current project directory:\n"
 "%s"
-msgstr "현재 프로젝트 저장"
+msgstr ""
+"현재 프로젝트 디렉토리:\n"
+"%s"
 
 #: kicad/tree_project_frame.cpp:236
 msgid "Create New Directory"
@@ -14391,7 +14432,7 @@ msgstr "새 디렉토리 만들기"
 #: kicad/tree_project_frame.cpp:702
 #, fuzzy
 msgid "&Switch to this Project"
-msgstr "회로도 열기 (&L)"
+msgstr "이 프로젝트로 전환 (&S)"
 
 #: kicad/tree_project_frame.cpp:703
 msgid "Close all editors, and switch to the selected project"
@@ -14400,7 +14441,7 @@ msgstr ""
 #: kicad/tree_project_frame.cpp:709 kicad/tree_project_frame.cpp:716
 #, fuzzy
 msgid "New D&irectory..."
-msgstr "새 디렉토리 (&I)"
+msgstr "새 디렉토리... (&I)"
 
 #: kicad/tree_project_frame.cpp:710 kicad/tree_project_frame.cpp:717
 msgid "Create a New Directory"
@@ -14442,12 +14483,12 @@ msgstr "파일 삭제 (&D)"
 #: kicad/tree_project_frame.cpp:785
 #, fuzzy, c-format
 msgid "Change filename: \"%s\""
-msgstr "파일 이름 바꾸기: "
+msgstr "파일 이름 변경: %s"
 
 #: kicad/tree_project_frame.cpp:788
 #, fuzzy
 msgid "Change filename"
-msgstr "파일 이름 바꾸기: "
+msgstr "파일 이름 변경"
 
 #: kicad/treeproject_item.cpp:108
 msgid ""
@@ -14472,7 +14513,7 @@ msgstr "권한 에러 ?"
 #: kicad/treeproject_item.cpp:132
 #, fuzzy, c-format
 msgid "Do you really want to delete \"%s\""
-msgstr "다음을 정말 삭제하시겠습니까: "
+msgstr "다음을 정말 삭제하시겠습니까: %s"
 
 #: kicad/treeproject_item.cpp:137
 msgid "Delete File"
@@ -14490,7 +14531,7 @@ msgstr ""
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:124
 #, fuzzy
 msgid "Origin"
-msgstr "플로트 원점"
+msgstr "원점"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
@@ -14498,7 +14539,7 @@ msgstr "플로트 원점"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:336
 #, fuzzy
 msgid "Upper Right"
-msgstr "오른쪽"
+msgstr "오른쪽 위"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
@@ -14506,7 +14547,7 @@ msgstr "오른쪽"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:337
 #, fuzzy
 msgid "Upper Left"
-msgstr "Copper Layers"
+msgstr "왼쪽 위""
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
@@ -14515,7 +14556,7 @@ msgstr "Copper Layers"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:338
 #, fuzzy
 msgid "Lower Right"
-msgstr "오른쪽"
+msgstr "오른쪽 아래"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
@@ -14524,7 +14565,7 @@ msgstr "오른쪽"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:339
 #, fuzzy
 msgid "Lower Left"
-msgstr "전원 출력"
+msgstr "왼쪽 아래"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:90
 msgid "X end:"
@@ -14537,7 +14578,7 @@ msgstr ""
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.h:72
 #, fuzzy
 msgid "New Item"
-msgstr "Nb 항목"
+msgstr "새 항목"
 
 #: pagelayout_editor/dialogs/dialogs_for_printing.cpp:219
 #, fuzzy
@@ -14551,7 +14592,7 @@ msgstr ""
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:44
 #, fuzzy
 msgid "Page 1 option:"
-msgstr "패드 설정"
+msgstr "페이지 1 옵션:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:50
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:111
@@ -14572,7 +14613,7 @@ msgstr ""
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:50
 #, fuzzy
 msgid "Not on page 1"
-msgstr "페이지에 맞추기"
+msgstr "1페이지에 없음"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:82
 msgid "Horizontal align:"
@@ -14581,21 +14622,21 @@ msgstr ""
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:95
 #, fuzzy
 msgid "Vertical align:"
-msgstr "세로쓰기"
+msgstr "수직 정렬:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:117
 #, fuzzy
 msgid "Set to 0 to use default values"
-msgstr "비아홀 크기 초기화"
+msgstr "기본값을 사용하려면 0으로 설정"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:156
 #, fuzzy
 msgid "Constraints:"
-msgstr "풋프린트"
+msgstr "제한:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:169
 msgid "Maximum width:"
-msgstr ""
+msgstr "최대 폭"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:171
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:180
@@ -14623,17 +14664,17 @@ msgstr ""
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:331
 #, fuzzy
 msgid "Origin:"
-msgstr "드릴 원점:"
+msgstr "원점:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:297
 #, fuzzy
 msgid "End X:"
-msgstr "테스트 마침"
+msgstr ""
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:311
 #, fuzzy
 msgid "End Y:"
-msgstr "테스트 마침"
+msgstr ""
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:354
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:896
@@ -14668,7 +14709,7 @@ msgstr ""
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:422
 #, fuzzy
 msgid "Text Increment:"
-msgstr "텍스트 방향"
+msgstr "텍스트 증가:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:441
 #, fuzzy
@@ -14695,42 +14736,42 @@ msgstr "기본값"
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:140
 #, fuzzy
 msgid "Line thickness:"
-msgstr "선 설정"
+msgstr "선 두께"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:531
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.cpp:208
 #, fuzzy
 msgid "Text thickness:"
-msgstr " 텍스트 설정"
+msgstr " 텍스트 두께"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:561
 #, fuzzy
 msgid "Set to Default"
-msgstr "비아홀 크기 초기화"
+msgstr "기본값으로 설정"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:570
 #, fuzzy
 msgid "Page Margins:"
-msgstr "페이지 인쇄"
+msgstr "페이지 여백:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:581
 #, fuzzy
 msgid "Left:"
-msgstr "왼쪽"
+msgstr "왼쪽:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:588
 #, fuzzy
 msgid "Right:"
-msgstr "오른쪽"
+msgstr "오른쪽:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:609
 msgid "Top:"
-msgstr ""
+msgstr "위:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:616
 #, fuzzy
 msgid "Bottom:"
-msgstr "아래쪽에서 보기"
+msgstr "아래:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:652
 #: pcbnew/dialogs/dialog_plot_base.cpp:70
@@ -14764,28 +14805,28 @@ msgstr "기존 레이어 열기"
 #: pagelayout_editor/files.cpp:130 pagelayout_editor/files.cpp:156
 #, fuzzy, c-format
 msgid "Unable to load %s file"
-msgstr "파일을 만들 수 없음"
+msgstr "%s 파일을 로드할 수 없음"
 
 #: pagelayout_editor/files.cpp:138
 #, fuzzy, c-format
 msgid "File \"%s\" inserted"
-msgstr "%s 파일을 찾을 수 없습니다."
+msgstr "%s 파일이 삽입되었음"
 
 #: pagelayout_editor/files.cpp:171
 #, fuzzy, c-format
 msgid "Unable to write \"%s\""
-msgstr "<%s>을(를) 생성할 수 없습니다."
+msgstr "%s 파일을 작성할 수 없음"
 
 #: pagelayout_editor/files.cpp:176 pagelayout_editor/files.cpp:207
 #, c-format
 msgid "File \"%s\" written"
-msgstr ""
+msgstr "%s 파일이 작성됨"
 
 #: pagelayout_editor/files.cpp:201 pcbnew/exporters/export_gencad.cpp:287
 #: pcbnew/exporters/gen_footprints_placefile.cpp:650
 #, fuzzy, c-format
 msgid "Unable to create \"%s\""
-msgstr "<%s>을(를) 생성할 수 없습니다."
+msgstr "<%s>을(를) 생성할 수 없음"
 
 #: pagelayout_editor/hotkeys.cpp:84 pagelayout_editor/onrightclick.cpp:116
 #: pcbnew/dialogs/dialog_move_exact_base.h:70 pcbnew/hotkeys.cpp:142
@@ -14797,27 +14838,27 @@ msgstr "텍스트 이동"
 #: pcbnew/hotkeys.cpp:134
 #, fuzzy
 msgid "Place Item"
-msgstr "노드 설치"
+msgstr "항목 배치"
 
 #: pagelayout_editor/hotkeys.cpp:86 pagelayout_editor/onrightclick.cpp:102
 #, fuzzy
 msgid "Move Start Point"
-msgstr "핀 이동"
+msgstr "시작점 이동"
 
 #: pagelayout_editor/hotkeys.cpp:88 pagelayout_editor/onrightclick.cpp:110
 #, fuzzy
 msgid "Move End Point"
-msgstr "핀 이동"
+msgstr "끝점 이동"
 
 #: pagelayout_editor/hotkeys.cpp:131 pagelayout_editor/pl_editor_frame.cpp:264
 #, fuzzy
 msgid "Page Layout Editor"
-msgstr "텍스트 에디터"
+msgstr "페이지 레이아웃 편집기"
 
 #: pagelayout_editor/menubar.cpp:64
 #, fuzzy
 msgid "Create new page layout design"
-msgstr "새 프로젝트 만들기"
+msgstr "새 페이지 레이아웃 디자인 만들기"
 
 #: pagelayout_editor/menubar.cpp:69 pagelayout_editor/toolbars_pl_editor.cpp:54
 msgid "Open an existing page layout design file"
@@ -14830,7 +14871,7 @@ msgstr ""
 #: pagelayout_editor/menubar.cpp:83
 #, fuzzy
 msgid "Save current page layout design file"
-msgstr "현재 로드된 라이브러리를 디스크에 저장 (파일 업데이트)"
+msgstr "현재 페이지 레이아웃 디자인 파일 저장"
 
 #: pagelayout_editor/menubar.cpp:88
 msgid "Save current page layout design file with a different name"
@@ -14839,7 +14880,7 @@ msgstr ""
 #: pagelayout_editor/menubar.cpp:96
 #, fuzzy
 msgid "Print Pre&view..."
-msgstr "미리 보기 (&V)"
+msgstr "프린트 미리보기 (&V)"
 
 #: pagelayout_editor/menubar.cpp:101
 msgid "Close Page Layout Editor"
@@ -16393,7 +16434,7 @@ msgstr "컴포넌트 %s: 라이브러리에서 %s 풋프린트를 찾을 수 없
 #: pcbnew/board_netlist_updater.cpp:222
 #, fuzzy, c-format
 msgid "Change %s reference to %s."
-msgstr "설정 (&P)"
+msgstr ""
 
 #: pcbnew/board_netlist_updater.cpp:237
 #, c-format
@@ -16468,7 +16509,7 @@ msgstr "컴포넌트를 찾을 수 없습니다."
 #: pcbnew/board_netlist_updater.cpp:715
 #, fuzzy
 msgid "Update netlist"
-msgstr "업데이트 설정"
+msgstr "네트리스트 갱신"
 
 #: pcbnew/board_netlist_updater.cpp:724
 #, c-format
@@ -16597,7 +16638,7 @@ msgstr ""
 #: pcbnew/class_board.cpp:2658
 #, fuzzy, c-format
 msgid "Changing footprint %s reference to %s."
-msgstr "설정 파일 저장:"
+msgstr ""
 
 #: pcbnew/class_board.cpp:2670
 #, c-format
@@ -17200,7 +17241,7 @@ msgstr "보드 파일:"
 #: pcbnew/dialogs/dialog_board_setup.cpp:32
 #, fuzzy
 msgid "Import Settings..."
-msgstr "색상 설정..."
+msgstr "설정 가져오기..."
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:48
 #, fuzzy
@@ -17396,7 +17437,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_non_copper_zones_properties_base.cpp:48
 #, fuzzy
 msgid "Outline display:"
-msgstr "네트리스트 설정"
+msgstr "윤곽 표시"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:141
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:60
@@ -17428,7 +17469,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:184
 #, fuzzy
 msgid "Pad connections:"
-msgstr "패드 설정"
+msgstr "패드 연결:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:186
 msgid ""
@@ -17457,7 +17498,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:209
 #, fuzzy
 msgid "Thermal spoke width:"
-msgstr "두께 설정"
+msgstr "방열 스포크 살 두께:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:214
 msgid "Width of copper in thermal reliefs."
